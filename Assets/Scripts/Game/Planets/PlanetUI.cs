@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlanetUI : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public Planet planet;
     void Start()
     {
 
@@ -22,7 +24,7 @@ public class PlanetUI : MonoBehaviour
 
     public void OnClick()
     {
-        // Handle click events on the planet UI
+        // planet Desscription Pop Up
         Debug.Log("Planet UI clicked");
     }
 }

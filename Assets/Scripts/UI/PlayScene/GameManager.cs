@@ -4,8 +4,6 @@ public class GameManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    public SpaceWindow spaceWindow;
-
     public static GameManager Instance { get; private set; }
 
     void Awake()

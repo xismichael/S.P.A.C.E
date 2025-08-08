@@ -24,6 +24,7 @@ public class CreatureDatabase : MonoBehaviour
         TextAsset jsonFile = Resources.Load<TextAsset>("creatures");
         List<Creature> creatureList = JsonConvert.DeserializeObject<List<Creature>>(jsonFile.text);
         creatureDict = creatureList.ToDictionary(c => c.name);
+        //Debug.Log($"Loaded {creatureDict.Count} creatures from database.");
     }
 
     public Creature GetCreature(string name)
