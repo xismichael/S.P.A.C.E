@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "Radioactive Monkey",
+    "description": "Once ate a radioactive banana, now glows in the dark.",
+    "traits": {
+      "vacuumResistance": 0.3,
+      "radiationResistance": 1.0,
+      "temperatureTolerance": 0.4,
+      "oxygenRequirement": 0.2,
+      "hydrationRequirement": 0.3
+    },
+    "size": 0.5,
+    "origin": "Earth"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "Kepler-442b",
+    "description": "Rocky exoplanet in the habitable zone",
+    "conditions": {
+      "atmospherePressure": 0.9,
+      "radiationLevel": 0.6,
+      "averageTemperature": 288,
+      "oxygenLevel": 0.2,
+      "waterLevel": 10
+    },
+    "gravity": 1.2,
+    "distanceFromEarth": 1120
+  }
+]
