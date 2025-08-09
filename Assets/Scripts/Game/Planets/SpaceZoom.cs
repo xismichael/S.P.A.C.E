@@ -26,7 +26,11 @@ public class SpaceZoom : MonoBehaviour
 
     public void zoomIn()
     {
-        if (isZoomedIn) return;
+        if (isZoomedIn)
+        {
+            Debug.Log("Already zoomed in on space");
+            return;
+        }
         isZoomedIn = true;
 
         ZoomBackground.SetActive(true);

@@ -1,4 +1,6 @@
-[System.Serializable]
+using System;
+
+[Serializable]
 public class Creature
 {
     public int id;
@@ -9,12 +11,16 @@ public class Creature
     public string origin;
 }
 
-[System.Serializable]
+[Serializable]
 public class CreatureTraits
 {
-    public float vacuumResistance;
-    public float radiationResistance;
-    public float temperatureTolerance;
-    public float oxygenRequirement;
-    public float hydrationRequirement;
+    // Matches corrected JSON keys exactly
+    public float tempUpper;
+    public float tempLower;
+    public string[] atmosphere;      // e.g., ["oxygen", "carbonDioxide"]
+    public float radiationUpper;
+    public float radiationLower;
+    public string[] biome;           // e.g., ["ocean", "rock", "gas"]
+    public int lifeSpan;             // 100
+    public float generalResilience;  // 0
 }
