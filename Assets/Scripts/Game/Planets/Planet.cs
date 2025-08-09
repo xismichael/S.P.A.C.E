@@ -17,4 +17,9 @@ public class PlanetConditions
     public float averageTemperature;
     public float oxygenLevel;
     public float waterLevel;
+
+    public void CreateConditions()
+    {
+
+    }
 }

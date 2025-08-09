@@ -12,7 +12,7 @@ public class MainMenuUI : MonoBehaviour
     {
         //load the play scene
         Debug.Log("Play button clicked");
-        //SceneManager.LoadScene("PlayScene");
+        SceneManager.LoadScene("PlayScreen");
     }
 
     public void OnCreditButton()
