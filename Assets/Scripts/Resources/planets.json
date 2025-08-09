@@ -4,12 +4,12 @@
     "name": "Kepler-442b",
     "description": "Rocky exoplanet in the habitable zone",
     "conditions": {
-      "PlanetType": "gas",
-      "Tempurature": 1000,
-      "LengthOfYear": 100,
-      "HabitalZome": 0,
-      "Atmosphere": "carbonDioxide",
-      "DistanceFromSun": 100
+      "planetType": "gas",
+      "temperature": 1000,
+      "lengthOfYear": 100,
+      "habitableZone": 0,
+      "atmosphere": "carbonDioxide",
+      "distanceFromSun": 100
     },
     "size": 0.5
   }

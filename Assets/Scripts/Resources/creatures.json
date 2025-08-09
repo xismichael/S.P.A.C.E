@@ -10,8 +10,8 @@
       "radiationUpper": 0.8,
       "radiationLower": 0.1,
       "biome": ["ocean", "rock", "gas"],
-      "LifeSpan": 100,
-      "GeneralResilience": 0
+      "lifeSpan": 100,
+      "generalResilience": 0
     },
     "size": 0.5,
     "origin": "Earth"
