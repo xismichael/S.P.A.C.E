@@ -18,5 +18,5 @@ public class PlanetConditions
     public float lengthOfYear;      // 100
     public int habitableZone;       // 0 (e.g., index/flag)
     public string atmosphere;       // "carbonDioxide"
-    public float distanceFromSun;   // 100
+    public float distanceFromStar;   // 100
 }

@@ -9,7 +9,7 @@
       "lengthOfYear": 100,
       "habitableZone": 0,
       "atmosphere": "carbonDioxide",
-      "distanceFromSun": 100
+      "distanceFromStar": 100
     },
     "size": 0.5
   }
