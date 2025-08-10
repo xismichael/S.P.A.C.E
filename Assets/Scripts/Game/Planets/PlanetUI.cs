@@ -20,6 +20,7 @@ public class PlanetUI : MonoBehaviour
     {
         // Initialize any necessary components or settings
         Debug.Log("Planet UI Initialized");
+        //planet = PlanetDatabase
     }
 
     public void OnClick()
