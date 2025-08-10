@@ -32,6 +32,23 @@
     },
     "size": 0.5,
     "origin": "Earth"
+  },
+  {
+    "id": 2,
+    "name": "test",
+    "description": "Testing creature descrpition",
+    "traits": {
+      "tempUpper": 300,
+      "tempLower": -50,
+      "atmosphere": ["oxygen", "carbonDioxide"],
+      "radiationUpper": 0.5,
+      "radiationLower": 0.1,
+      "biome": ["gas"],
+      "lifeSpan": 15,
+      "generalResilience": 0.9
+    },
+    "size": 0.3,
+    "origin": "Earth"
   }
 
 ]

@@ -6,17 +6,16 @@ public static class RatingSystem
 {
     public static float GetCreaturePlanetRating(Creature creature, Planet planet)
     {
-        //proposed: return a value from 1 - 10 based on creature traits, planet conditions matches
-
-        int activeTraitsCount = 0;
-        if (creature == null || planet == null || planet.conditions == null || creature.traits == null) return 0f;
-
+        if (creature == null || planet == null || planet.conditions == null || creature.traits == null)
+            return 0f;
 
         float r = Mathf.Clamp01(creature.traits.generalResilience);
+        int activeTraitsCount = 0;
         float sum = 0f;
+        float s;
 
-        // Creature Biome to Planet Type Match
-        float s = ScoreListContainsToken(
+        // PlanetType
+        s = ScoreListContainsToken(
             token: planet.conditions.planetType,
             allowed: creature.traits.biome,
             resilience: r,
@@ -25,8 +24,7 @@ public static class RatingSystem
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-
-        // atmosphere match
+        // Atmosphere
         s = ScoreAtmosphereList(
             planetAtmos: planet.conditions.atmosphere,
             creaturePreferred: creature.traits.atmosphere,
@@ -34,7 +32,7 @@ public static class RatingSystem
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-        // temperature range match
+        // Temperature range
         s = ScoreTemperatureRangeContains(
             planetLower: planet.conditions.tempLower,
             planetUpper: planet.conditions.tempUpper,
@@ -44,17 +42,17 @@ public static class RatingSystem
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-        // radiation match
+        // Radiation via distance
         s = ScoreRadiationFromDistance(
             distanceFromStar: planet.conditions.distanceFromStar,
             radLower: creature.traits.radiationLower,
             radUpper: creature.traits.radiationUpper,
             resilience: r,
-            referenceDistance: 1.0f // Assuming a reference distance of 1 AU
+            referenceDistance: 1.0f
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-        // lifespan vs year match
+        // Lifespan vs year length
         s = ScoreLifespanVsYear(
             lifeSpan: creature.traits.lifeSpan,
             lengthOfYear: planet.conditions.lengthOfYear,
@@ -62,48 +60,42 @@ public static class RatingSystem
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-        // habitable zone match
+        // Habitable zone
         s = ScoreHabitableZone(
             habitableZone: planet.conditions.habitableZone,
             resilience: r
         );
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
-
-
-
-
-
-
-
-
-
-
-        //for now just return 1
-        return 1f;
+        if (activeTraitsCount == 0) return 0f;
+        return Mathf.Clamp(10f * (sum / activeTraitsCount), 0f, 10f);
     }
 
-    private static float ScoreListContainsToken(string token, string[] allowed, float resilience, float mismatchFloor = 0.05f, float mismatchCeil = 0.6f)
-    {
-        if (string.IsNullOrEmpty(token)) return -1f;
-        if (allowed == null || allowed.Length == 0) return -1f;
 
+    private static float ScoreListContainsToken(string token, IEnumerable<string> allowed, float resilience, float mismatchFloor = 0.05f, float mismatchCeil = 0.6f)
+    {
         string t = NormalizeToken(token);
-        if (allowed.Contains(t)) return 1f;
+        if (string.IsNullOrEmpty(t)) return -1f;
+        if (allowed == null) return -1f; // just in case
+
+        if (allowed.Any(a => NormalizeToken(a) == t)) return 1f;
 
         float floor = Mathf.Clamp01(mismatchFloor);
-        float ceil = Mathf.Clamp01(Mathf.Max(mismatchCeil, floor));
+        float ceil  = Mathf.Clamp01(Mathf.Max(mismatchCeil, floor));
         return Mathf.Lerp(floor, ceil, Mathf.Clamp01(resilience));
     }
 
-    private static float ScoreAtmosphereList(string[] planetAtmos, string[] creaturePreferred, float resilience)
+    private static float ScoreAtmosphereList(string[] planetAtmos, IEnumerable<string> creaturePreferred, float resilience)
     {
-        if (creaturePreferred == null || creaturePreferred.Length == 0) return -1f;
-        if (planetAtmos == null) return -1f;
+        if (planetAtmos == null || creaturePreferred == null) return -1f;
 
-        var planetSet = planetAtmos.Select(NormalizeToken).ToHashSet();
+        var planetSet = planetAtmos
+            .Where(s => !string.IsNullOrWhiteSpace(s))
+            .Select(NormalizeToken)
+            .Where(s => !string.IsNullOrEmpty(s))
+            .ToHashSet();
+
         int needed = 0, present = 0;
-
         foreach (var pref in creaturePreferred)
         {
             string t = NormalizeToken(pref);
@@ -120,17 +112,20 @@ public static class RatingSystem
         return Mathf.Clamp01(Mathf.Pow(coverage, k));
     }
 
-    private static float ScoreTemperatureRangeContains(float planetLower, float planetUpper, float creatureLower, float creatureUpper, float resilience)
+    private static float ScoreTemperatureRangeContains(float? planetLower, float? planetUpper, float creatureLower, float creatureUpper, float resilience)
     {
-        if (float.IsNaN(planetLower) || float.IsNaN(planetUpper)) return -1f;
-        if (float.IsNaN(creatureLower) || float.IsNaN(creatureUpper)) return -1f;
+        if (planetLower == null || planetUpper == null) return -1f;
 
-        float pLen = Mathf.Max(planetUpper - planetLower, 1e-6f);
-        bool contains = (creatureLower <= planetLower) && (creatureUpper >= planetUpper);
-        if (contains) return 1f;
+        float pLo = planetLower.Value, pHi = planetUpper.Value;
+        float cLo = creatureLower,     cHi = creatureUpper;
+        if (pHi < pLo) (pLo, pHi) = (pHi, pLo);
+        if (cHi < cLo) (cLo, cHi) = (cHi, cLo);
 
-        float overlapLower = Mathf.Max(planetLower, creatureLower);
-        float overlapUpper = Mathf.Min(planetUpper, creatureUpper);
+        float pLen = Mathf.Max(pHi - pLo, 1e-6f);
+        if (cLo <= pLo && cHi >= pHi) return 1f;
+
+        float overlapLower = Mathf.Max(pLo, cLo);
+        float overlapUpper = Mathf.Min(pHi, cHi);
         float overlap = Mathf.Max(0f, overlapUpper - overlapLower);
         float coverage = Mathf.Clamp01(overlap / pLen);
 
@@ -138,61 +133,54 @@ public static class RatingSystem
         return Mathf.Clamp01(Mathf.Pow(coverage, k));
     }
 
-    // Radiation proxy from distance (inverse-square), resilience widens tolerance.
-    //chat wrote this not me sooooooo if it doesn't work blame chat
-    private static float ScoreRadiationFromDistance(float distanceFromStar, float radLower, float radUpper, float resilience, float referenceDistance)
+    private static float ScoreRadiationFromDistance(float? distanceFromStar, float radLower, float radUpper, float resilience, float referenceDistance)
     {
-        if (distanceFromStar <= 0f || float.IsNaN(distanceFromStar)) return -1f;
+        if (distanceFromStar == null) return -1f;
 
+        float r  = Mathf.Max(distanceFromStar.Value, 0.0001f);
         float R0 = Mathf.Max(referenceDistance, 0.0001f);
-        float r = Mathf.Max(distanceFromStar, 0.0001f);
         float intensity = (R0 * R0) / (r * r);
 
-        if (radUpper < radLower) (radLower, radUpper) = (radUpper, radLower);
-        float baseRange = Mathf.Max(radUpper - radLower, 1e-4f);
+        float lo = Mathf.Min(radLower, radUpper);
+        float hi = Mathf.Max(radLower, radUpper);
+        float baseRange = Mathf.Max(hi - lo, 1e-4f);
 
         float cushion = baseRange * (0.25f + 0.75f * Mathf.Clamp01(resilience));
-        if (intensity >= radLower && intensity <= radUpper) return 1f;
+        if (intensity >= lo && intensity <= hi) return 1f;
 
-        float dist = (intensity < radLower) ? (radLower - intensity) : (intensity - radUpper);
+        float dist = (intensity < lo) ? (lo - intensity) : (intensity - hi);
         float t = dist / Mathf.Max(cushion, 1e-4f);
-        float score = 1f / (1f + t * t);
-        return Mathf.Clamp01(score);
+        return Mathf.Clamp01(1f / (1f + t * t));
     }
 
-    private static float ScoreLifespanVsYear(float lifeSpan, float lengthOfYear, float resilience)
+    private static float ScoreLifespanVsYear(float lifeSpan, float? lengthOfYear, float resilience)
     {
-        if (lengthOfYear <= 0f || lifeSpan < 0f) return -1f;
-        if (lifeSpan >= lengthOfYear) return 1f;
+        if (lengthOfYear == null) return -1f;
 
-        float ratio = Mathf.Clamp01(lifeSpan / lengthOfYear);
-        if (ratio >= 1f) return 1f;
-        float bend = Mathf.Lerp(3f, 1.0f, Mathf.Clamp01(resilience));
+        float L = lifeSpan, Y = lengthOfYear.Value;
+        if (Y <= 0f || L < 0f) return -1f;
+        if (L >= Y) return 1f;
+
+        float ratio = Mathf.Clamp01(L / Y);
+        float bend = Mathf.Lerp(3f, 1f, Mathf.Clamp01(resilience));
         float score = Mathf.Pow(ratio, bend);
 
         float floor = 0.05f + 0.25f * Mathf.Clamp01(resilience);
         return Mathf.Clamp01(Mathf.Max(score, floor));
     }
 
-    private static float ScoreHabitableZone(int habitableZone, float resilience)
+    private static float ScoreHabitableZone(int? habitableZone, float resilience)
     {
-        if (habitableZone == 1) return 1f;
-        if (habitableZone == 0) return Mathf.Clamp01(resilience);
+        if (habitableZone == null) return -1f;
+        if (habitableZone.Value == 1) return 1f;
+        if (habitableZone.Value == 0) return Mathf.Clamp01(resilience);
         return -1f;
     }
 
-
-
-
-
-
-
-
-    //helpers
-
+    // helper functinos
     private static string NormalizeToken(string s)
     {
-        if (string.IsNullOrEmpty(s)) return string.Empty;
+        if (string.IsNullOrWhiteSpace(s)) return string.Empty;
         s = s.Trim().ToLowerInvariant();
         if (s == "carbondioxide" || s == "carbon_dioxide" || s == "co2") return "carbondioxide";
         if (s == "o2" || s == "oxygen") return "oxygen";
@@ -200,5 +188,4 @@ public static class RatingSystem
         if (s == "water" || s == "ocean" || s == "aquatic") return "ocean";
         return s;
     }
-
 }

@@ -6,18 +6,18 @@ public class Planet
     public int id;
     public string name;
     public string description;
-    public PlanetConditions conditions;
-    public float size;
+    public PlanetConditions conditions; // will be null if missing in JSON
+    public float? size; // nullable float
 }
 
 [Serializable]
 public class PlanetConditions
 {
-    public string planetType = "";       // "gas"
-    public float tempUpper = -1;       // 1000
-    public float tempLower = -1;       // -1000
-    public float lengthOfYear = -1;      // 100
-    public int habitableZone = -1;       // 0 (e.g., index/flag)
-    public string[] atmosphere= {""};       // "carbonDioxide"
-    public float distanceFromStar=  -1;   // 100
+    public string planetType;      // null if missing
+    public float? tempUpper;       // null if missing
+    public float? tempLower;
+    public float? lengthOfYear;
+    public int? habitableZone;
+    public string[] atmosphere;    // null if missing
+    public float? distanceFromStar;
 }

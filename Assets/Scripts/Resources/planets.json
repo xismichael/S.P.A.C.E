@@ -196,5 +196,20 @@
       "distanceFromStar": 0.091
     },
     "size": 0.5
+  },
+
+  {
+    "id": 14,
+    "name": "test",
+    "description": "this is a testing planet",
+    "conditions": {
+      "planetType": "rocky",
+      "tempUpper": 259,
+      "tempLower": 259,
+      "lengthOfYear": 18.6,
+      "habitableZone": 1,
+      "distanceFromStar": 0.091
+    },
+    "size": 0.5
   }
 ]

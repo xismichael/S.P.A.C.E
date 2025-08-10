@@ -9,16 +9,16 @@ public class PlanetManager : MonoBehaviour
     private PlanetUI selectedPlanetUI;
     private Planet SelectedPlanet;
     private bool isPlanetSelected;
-    public PlanetInfoView planetInfoView;
+    //public PlanetInfoView planetInfoView;
 
-    public GameObject planet_prefab;
-    public List<GameObject> planets;
+    //public GameObject planet_prefab;
+    //public List<GameObject> planets;
 
     IEnumerable<Planet> planet_values;
 
     void Start()
     {
-        CreatePlanets();
+        //CreatePlanets();
     }
 
     // Update is called once per frame
@@ -27,16 +27,16 @@ public class PlanetManager : MonoBehaviour
 
     }
 
-    void CreatePlanets()
-    {
-        planet_values = PlanetDatabase.Instance.GetAllPlanets();
+    // void CreatePlanets()
+    // {
+    //     planet_values = PlanetDatabase.Instance.GetAllPlanets();
 
-        foreach (var planet_value in planet_values)
-        {
-            GameObject planet = Instantiate(planet_prefab, new Vector3(0, 0, 0), Quaternion.identity);
-            planet.GetComponent<PlanetUI>().planetinfoview = GameObject.Find("PlanetInfoView");
-            planets.Add(planet);
+    //     foreach (var planet_value in planet_values)
+    //     {
+    //         GameObject planet = Instantiate(planet_prefab, new Vector3(0, 0, 0), Quaternion.identity);
+    //         planet.GetComponent<PlanetUI>().planetinfoview = GameObject.Find("PlanetInfoView");
+    //         planets.Add(planet);
 
-        }
-    }
+    //     }
+    // }
 }
