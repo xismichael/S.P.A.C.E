@@ -13,10 +13,11 @@ public class Planet
 [Serializable]
 public class PlanetConditions
 {
-    public string planetType;       // "gas"
-    public float temperature;       // 1000
-    public float lengthOfYear;      // 100
-    public int habitableZone;       // 0 (e.g., index/flag)
-    public string atmosphere;       // "carbonDioxide"
-    public float distanceFromStar;   // 100
+    public string planetType = "";       // "gas"
+    public float tempUpper = -1;       // 1000
+    public float tempLower = -1;       // -1000
+    public float lengthOfYear = -1;      // 100
+    public int habitableZone = -1;       // 0 (e.g., index/flag)
+    public string[] atmosphere= {""};       // "carbonDioxide"
+    public float distanceFromStar=  -1;   // 100
 }

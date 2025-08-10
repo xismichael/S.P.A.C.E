@@ -15,5 +15,23 @@
     },
     "size": 0.5,
     "origin": "Earth"
+  },
+  {
+    "id": 1,
+    "name": "Strange Space Dog",
+    "description": "pee",
+    "traits": {
+      "tempUpper": 500,
+      "tempLower": 100,
+      "atmosphere": [null],
+      "radiationUpper": 0.75,
+      "radiationLower": 0.25,
+      "biome": ["rocky"],
+      "lifeSpan": 100,
+      "generalResilience": 0.75
+    },
+    "size": 0.5,
+    "origin": "Earth"
   }
+
 ]
