@@ -36,4 +36,32 @@ public class CreatureDatabase : MonoBehaviour
     {
         return creatureDict.Values;
     }
+
+    public List<Creature> GetUniqueCreatures(int amount)
+    {
+        if (creatureDict == null || creatureDict.Count == 0)
+            return new List<Creature>();
+
+        int count = Mathf.Min(amount, creatureDict.Count);
+        var result = new List<Creature>();
+
+        return GetUniqueCreaturesRecursive(result, count);
+    }
+
+    private List<Creature> GetUniqueCreaturesRecursive(List<Creature> current, int targetCount)
+    {
+        if (current.Count >= targetCount)
+            return current;
+
+        // Pick a random planet
+        var allCreatures = creatureDict.Values.ToList();
+        Creature randomCreature = allCreatures[UnityEngine.Random.Range(0, allCreatures.Count)];
+
+        // Add if not already in the list
+        if (!current.Contains(randomCreature))
+            current.Add(randomCreature);
+
+        // Recurse until we reach the desired amount
+        return GetUniqueCreaturesRecursive(current, targetCount);
+    }
 }

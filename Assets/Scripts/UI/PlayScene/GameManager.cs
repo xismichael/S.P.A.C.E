@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlanetManager planetManager;
     [SerializeField] private CreatureManager creatureManager;
 
+    [SerializeField] private GameObject gameOverPanel;
+
 
     void Awake()
     {
@@ -64,7 +66,7 @@ public class GameManager : MonoBehaviour
     private void OnTimerTick(float remaining)
     {
         // Update your UI here
-        //Debug.Log($"Time remaining: {remaining:F1} seconds");
+        Debug.Log($"Time remaining: {remaining:F1} seconds");
     }
 
     //function that is called when the timer completes
@@ -83,6 +85,7 @@ public class GameManager : MonoBehaviour
     private void EndGame(GameEndReason reason)
     {
         Debug.Log($"Game ended because: {reason}");
+        gameOverPanel.SetActive(true);
         //Update UI results
     }
 
@@ -99,6 +102,7 @@ public class GameManager : MonoBehaviour
     private bool AllMatchesComplete()
     {
         // Your match-completion logic here
+        if (planetManager.CurrentPlanets.Count == 0 && creatureManager.CurrentCreatures.Count == 0) return true;
         return false;
     }
 
@@ -112,6 +116,17 @@ public class GameManager : MonoBehaviour
     {
         // Use the RatingSystem and creature behavior on ship to get a rating based on creature and planet
         return 0f;
+    }
+
+    public void SendCreatureToPlanet()
+    {
+        Debug.Log(creatureManager.SelectedCreature.name + " has been sent to " + planetManager.SelectedPlanet.name);
+        if (planetManager.selectedPlanetUI == null || creatureManager.selectedCreatureUI == null) return;
+        planetManager.DeleteSelectedPlanet();
+        creatureManager.DeleteSelectedCreature();
+        OnMatchMade();
+
+
     }
 
 }

@@ -8,8 +8,8 @@ public class PlanetManager : MonoBehaviour
     [SerializeField] private PlanetInfoView planetInfoView;
     [SerializeField] private GameObject planet_prefab;
     [SerializeField] private Image SelectedPlanetImage;
-    public static PlanetUI selectedPlanetUI;
-    public static Planet SelectedPlanet;
+    public  PlanetUI selectedPlanetUI = null;
+    public  Planet SelectedPlanet = null;
 
     public int PlanetCount = 5;
     public List<PlanetUI> CurrentPlanets = new();
@@ -73,8 +73,24 @@ public class PlanetManager : MonoBehaviour
     {
         selectedPlanetUI = planetUI;
         SelectedPlanet = planetUI.planet;
-        SelectedPlanetImage = planetUI.planetImage;
+        SelectedPlanetImage.sprite = planetUI.planetImage.sprite;
     }
+
+    public void DeleteSelectedPlanet()
+{
+
+    // remove from tracking lists
+    CurrentPlanets.Remove(selectedPlanetUI);
+    planets.Remove(SelectedPlanet);
+    SelectedPlanetImage.sprite = null;
+
+    // destroy the UI object
+    Destroy(selectedPlanetUI.gameObject);
+
+    // clear selection
+    selectedPlanetUI = null;
+    SelectedPlanet = null;
+}
 
 
 }
