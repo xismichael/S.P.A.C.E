@@ -11,7 +11,7 @@
       "radiationLower": 0.1,
       "biome": ["ocean", "rock", "gas"],
       "lifeSpan": 100,
-      "generalResilience": 0,
+      "generalResilience": 0.95,
       "beef": [],
       "sanity": 0.15 
     },
@@ -30,7 +30,7 @@
       "radiationLower": 0.25,
       "biome": ["rocky"],
       "lifeSpan": 100,
-      "generalResilience": 0.75,
+      "generalResilience": 0.85,
       "beef": [],
       "sanity": 1 
     },
@@ -49,7 +49,7 @@
       "radiationLower": 0.1,
       "biome": ["rocky", "ocean"],
       "lifeSpan": 3,
-      "generalResilience": 0.25,
+      "generalResilience": 0.65,
       "beef": ["Strange Space Dog", "Octopus Cat", "Testudispeed", "Black Hole Bird"],
       "sanity": 0.75 
     },
@@ -68,7 +68,7 @@
       "radiationLower": 0.1,
       "biome": ["rocky", "ocean"],
       "lifeSpan": 40,
-      "generalResilience": 0.15,
+      "generalResilience": 0.6,
       "beef": ["Strange Space Dog"],
       "sanity": 0.8
     },
@@ -152,7 +152,7 @@
     "origin": "Found floating in the heavy atmosphere's of toxic gas planets, absorbing the toxins to power their dark spirit."
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Rubicus Golem",
     "description": "These rocky creatures are made from an extremely durable stony composite inlaid with sparkling gemstones. Their safe rehoming has become a humanitarian crisis as some hunt them for the gems inbedded in their bodies.",
     "traits": {

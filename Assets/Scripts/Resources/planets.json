@@ -118,7 +118,7 @@
     "name": "WASP-12 b",
     "description": "WASP-12 b is a hot Jupiter-like gas giant. It is the first planet we have observed that is being consumed by its host star. It is so close to its parent star that its tidal forces are distorting the planet into an egg shape. It is experiencing atmospheric loss and extreme conditions as the star consumes it. This is a doomed planet.",
     "conditions": {
-      "planetType": "pee",
+      "planetType": "gas",
       "tempUpper": 3128,
       "tempLower": 3128,
       "lengthOfYear": 1.1,

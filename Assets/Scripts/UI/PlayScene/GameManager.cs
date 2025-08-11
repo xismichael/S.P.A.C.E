@@ -40,11 +40,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //testing
-        Planet testPlanet = PlanetDatabase.Instance.GetPlanet("test");
-        Creature testCreature = CreatureDatabase.Instance.GetCreature("test");
+        Planet testPlanet = PlanetDatabase.Instance.GetPlanet("GJ 1214 b");
+        Creature testCreature = CreatureDatabase.Instance.GetCreature("Walking Fish");
 
         float rating = RatingSystem.GetCreaturePlanetRating(testCreature, testPlanet);
-
+        Debug.Log($"Rating for {testCreature.name} on {testPlanet.name}: {rating}");
         StartGame();
 
 

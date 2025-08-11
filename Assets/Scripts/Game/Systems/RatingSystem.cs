@@ -68,7 +68,7 @@ public static class RatingSystem
         if (s >= 0f) { sum += s; activeTraitsCount++; }
 
         if (activeTraitsCount == 0) return 0f;
-        return Mathf.Clamp(10f * (sum / activeTraitsCount), 0f, 10f);
+        return Mathf.Clamp(120f * (sum / activeTraitsCount), 0f, 100f);
     }
 
 
