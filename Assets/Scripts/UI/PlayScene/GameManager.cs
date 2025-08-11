@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CreatureManager creatureManager;
 
     [SerializeField] private GameObject gameOverPanel;
+
+    [SerializeField] private TextMeshProUGUI TimerText;
+    [SerializeField] private TextMeshProUGUI FinalScoreText;
+
+    private int matchesMade = 0;
+    private float totalScore = 0;
 
 
     void Awake()
@@ -42,11 +49,15 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //testing
-        Planet testPlanet = PlanetDatabase.Instance.GetPlanet("GJ 1214 b");
-        Creature testCreature = CreatureDatabase.Instance.GetCreature("Walking Fish");
+        // Planet testPlanet = PlanetDatabase.Instance.GetPlanet("GJ 1214 b");
+        // Creature testCreature = CreatureDatabase.Instance.GetCreature("Walking Fish");
 
-        float rating = RatingSystem.GetCreaturePlanetRating(testCreature, testPlanet);
-        Debug.Log($"Rating for {testCreature.name} on {testPlanet.name}: {rating}");
+        // float rating = RatingSystem.GetCreaturePlanetRating(testCreature, testPlanet);
+        // Debug.Log($"Rating for {testCreature.name} on {testPlanet.name}: {rating}");
+
+        FinalScoreText.text = "";
+        matchesMade = 0;
+        totalScore = 0;
         StartGame();
 
 
@@ -66,7 +77,9 @@ public class GameManager : MonoBehaviour
     private void OnTimerTick(float remaining)
     {
         // Update your UI here
-        Debug.Log($"Time remaining: {remaining:F1} seconds");
+        //Debug.Log($"Time remaining: {remaining:F1} seconds");
+            int total = Mathf.Max(0, Mathf.FloorToInt(remaining));
+            TimerText.text = $"{total/60}:{total % 60:00}";
     }
 
     //function that is called when the timer completes
@@ -92,8 +105,18 @@ public class GameManager : MonoBehaviour
     public void OnMatchMade()
     {
         // If all matches are made, stop timer and end game
+
+
+        Debug.Log(creatureManager.SelectedCreature.name + " has been sent to " + planetManager.SelectedPlanet.name);
+        float score = RatingSystem.GetCreaturePlanetRating(creatureManager.SelectedCreature, planetManager.SelectedPlanet);
+        totalScore += score;
+        matchesMade++;
+        FinalScoreText.text += $"{creatureManager.SelectedCreature.name} has been sent to {planetManager.SelectedPlanet.name} with a score of {score}\n";
+        planetManager.DeleteSelectedPlanet();
+        creatureManager.DeleteSelectedCreature();
         if (AllMatchesComplete())
         {
+            FinalScoreText.text += $"\n your final scsore is: {totalScore/matchesMade}";
             timer.StopTimer();
             EndGame(GameEndReason.AllMatched);
         }
@@ -120,10 +143,7 @@ public class GameManager : MonoBehaviour
 
     public void SendCreatureToPlanet()
     {
-        Debug.Log(creatureManager.SelectedCreature.name + " has been sent to " + planetManager.SelectedPlanet.name);
         if (planetManager.selectedPlanetUI == null || creatureManager.selectedCreatureUI == null) return;
-        planetManager.DeleteSelectedPlanet();
-        creatureManager.DeleteSelectedCreature();
         OnMatchMade();
 
 

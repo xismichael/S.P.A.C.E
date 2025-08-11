@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CreatureUI : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class CreatureUI : MonoBehaviour
     public CreatureInfoView creatureInfoView;
     public Image creatureImage;
     public CreatureManager creatureManager;
-    void Start()
+    
+        void Start()
     {
 
     }
@@ -30,7 +32,7 @@ public class CreatureUI : MonoBehaviour
     public void OnClick()
     {
         // Handle click events on the creature UI
-        creatureInfoView.Open();
+        creatureInfoView.Open(creature);
         creatureManager.SetCreatureUI(this);
 
     }

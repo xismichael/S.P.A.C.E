@@ -35,18 +35,8 @@ public class PlanetUI : MonoBehaviour
     public void OnClick()
     {
         // planet Desscription Pop Up
-        UnityEngine.Debug.Log("Planet UI clicked");
 
-        if (planetinfoview != null)
-        {
-            planetinfoview.Open();
-        }
-        else
-        {
-            UnityEngine.Debug.LogError("planetinfoview is not assigned!");
-            return;
-        }
-        
+        planetinfoview.Open(planet);
         planetManager.SetPlanetUI(this);
         
     }
