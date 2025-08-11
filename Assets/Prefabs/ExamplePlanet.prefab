@@ -98,6 +98,8 @@ MonoBehaviour:
       atmosphere:
       - 
   planetinfoview: {fileID: 0}
+  planetImage: {fileID: 9092642537690220962}
+  planetManager: {fileID: 0}
   button: {fileID: 0}
 --- !u!114 &3943688953614147658
 MonoBehaviour:

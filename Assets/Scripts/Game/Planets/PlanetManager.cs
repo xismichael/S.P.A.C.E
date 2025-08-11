@@ -73,7 +73,7 @@ public class PlanetManager : MonoBehaviour
     {
         selectedPlanetUI = planetUI;
         SelectedPlanet = planetUI.planet;
-        SelectedPlanetImage = planetUI.GetComponent<Image>();
+        SelectedPlanetImage = planetUI.planetImage;
     }
 
 
