@@ -23,4 +23,6 @@ public class CreatureTraits
     public string[] biome;           // e.g., ["ocean", "rock", "gas"]
     public int lifeSpan;             // 100
     public float generalResilience;  // 0
+    public string[] beef;
+    public float sanity;
 }

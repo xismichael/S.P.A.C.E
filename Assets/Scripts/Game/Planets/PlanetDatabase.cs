@@ -35,4 +35,32 @@ public class PlanetDatabase : MonoBehaviour
     {
         return planetDict.Values;
     }
+
+    public List<Planet> GetUniquePlanets(int amount)
+    {
+        if (planetDict == null || planetDict.Count == 0)
+            return new List<Planet>();
+
+        int count = Mathf.Min(amount, planetDict.Count);
+        var result = new List<Planet>();
+
+        return GetUniquePlanetsRecursive(result, count);
+    }
+
+    private List<Planet> GetUniquePlanetsRecursive(List<Planet> current, int targetCount)
+    {
+        if (current.Count >= targetCount)
+            return current;
+
+        // Pick a random planet
+        var allPlanets = planetDict.Values.ToList();
+        Planet randomPlanet = allPlanets[UnityEngine.Random.Range(0, allPlanets.Count)];
+
+        // Add if not already in the list
+        if (!current.Contains(randomPlanet))
+            current.Add(randomPlanet);
+
+        // Recurse until we reach the desired amount
+        return GetUniquePlanetsRecursive(current, targetCount);
+    }
 }

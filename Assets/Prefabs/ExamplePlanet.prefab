@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8957894273004448431}
   - component: {fileID: 9092642537690220962}
   - component: {fileID: -2234962053116537223}
-  - component: {fileID: 9179834803222160995}
+  - component: {fileID: 3943688953614147658}
   m_Layer: 5
   m_Name: ExamplePlanet
   m_TagString: Untagged
@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -304, y: 90}
+  m_AnchoredPosition: {x: 364, y: 177}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8957894273004448431
@@ -95,17 +95,11 @@ MonoBehaviour:
     description: 
     conditions:
       planetType: 
-      tempUpper: -1
-      tempLower: -1
-      lengthOfYear: -1
-      habitableZone: -1
       atmosphere:
       - 
-      distanceFromStar: -1
-    size: 0
   planetinfoview: {fileID: 0}
   button: {fileID: 0}
---- !u!114 &9179834803222160995
+--- !u!114 &3943688953614147658
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +139,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 9092642537690220962}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []

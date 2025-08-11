@@ -7,7 +7,10 @@ public class PlanetUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public Planet planet;
-    public GameObject planetinfoview;
+    public PlanetInfoView planetinfoview;
+    public Image planetImage;
+
+    public PlanetManager planetManager;
     public Button button;
 
     void Start()
@@ -25,7 +28,7 @@ public class PlanetUI : MonoBehaviour
     public void Initialize()
     {
         // Initialize any necessary components or settings
-        UnityEngine.Debug.Log("Planet UI Initialized");
+        UnityEngine.Debug.Log(planet.name + " Initialized");
         //planet = PlanetDatabase
     }
 
@@ -36,13 +39,15 @@ public class PlanetUI : MonoBehaviour
 
         if (planetinfoview != null)
         {
-            planetinfoview.SetActive(true); 
+            planetinfoview.Open();
         }
         else
         {
             UnityEngine.Debug.LogError("planetinfoview is not assigned!");
             return;
         }
+        
+        planetManager.SetPlanetUI(this);
         
     }
 }

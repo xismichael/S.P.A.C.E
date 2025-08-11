@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     //game timer
     [SerializeField] private CountdownTimer timer;
+    [SerializeField] private PlanetManager planetManager;
+    [SerializeField] private CreatureManager creatureManager;
+
+
     void Awake()
     {
         // Enforce singleton pattern
@@ -60,7 +64,7 @@ public class GameManager : MonoBehaviour
     private void OnTimerTick(float remaining)
     {
         // Update your UI here
-        Debug.Log($"Time remaining: {remaining:F1} seconds");
+        //Debug.Log($"Time remaining: {remaining:F1} seconds");
     }
 
     //function that is called when the timer completes
@@ -74,6 +78,7 @@ public class GameManager : MonoBehaviour
     {
         // Reset game and set time
         timer.StartTimer(300f);
+        planetManager.startGame();
     }
     private void EndGame(GameEndReason reason)
     {

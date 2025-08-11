@@ -11,44 +11,163 @@
       "radiationLower": 0.1,
       "biome": ["ocean", "rock", "gas"],
       "lifeSpan": 100,
-      "generalResilience": 0
+      "generalResilience": 0,
+      "beef": [],
+      "sanity": 0.15 
     },
-    "size": 0.5,
+    "size": 0.4,
     "origin": "Earth"
   },
   {
     "id": 1,
     "name": "Strange Space Dog",
-    "description": "pee",
+    "description": "He seems like a normal dog and yet, no one's ever seen below the suit so who can really tell?",
     "traits": {
       "tempUpper": 500,
       "tempLower": 100,
-      "atmosphere": [null],
+      "atmosphere": [],
       "radiationUpper": 0.75,
       "radiationLower": 0.25,
       "biome": ["rocky"],
       "lifeSpan": 100,
-      "generalResilience": 0.75
+      "generalResilience": 0.75,
+      "beef": [],
+      "sanity": 1 
     },
     "size": 0.5,
-    "origin": "Earth"
+    "origin": "Appeared on a roaming spaceship one day"
   },
   {
     "id": 2,
-    "name": "test",
-    "description": "Testing creature descrpition",
+    "name": "Walking Fish",
+    "description": "Reminiscent of the fish from your home planet but it has strange feet and a peculiar shape.",
     "traits": {
-      "tempUpper": 300,
-      "tempLower": -50,
-      "atmosphere": ["oxygen", "carbonDioxide"],
+      "tempUpper": 400,
+      "tempLower": 100,
+      "atmosphere": ["water"],
       "radiationUpper": 0.5,
       "radiationLower": 0.1,
+      "biome": ["rocky", "ocean"],
+      "lifeSpan": 3,
+      "generalResilience": 0.25,
+      "beef": ["Strange Space Dog", "Octopus Cat", "Testudispeed", "Black Hole Bird"],
+      "sanity": 0.75 
+    },
+    "size": 0.25,
+    "origin": "Earth"
+  },
+  {
+    "id": 3,
+    "name": "Octopus Cat",
+    "description": "Github mascot type shi.",
+    "traits": {
+      "tempUpper": 400,
+      "tempLower": 100,
+      "atmosphere": ["water"],
+      "radiationUpper": 0.75,
+      "radiationLower": 0.1,
+      "biome": ["rocky", "ocean"],
+      "lifeSpan": 40,
+      "generalResilience": 0.15,
+      "beef": ["Strange Space Dog"],
+      "sanity": 0.8
+    },
+    "size": 0.75,
+    "origin": "A forgotten water planet"
+  },
+  {
+    "id": 4,
+    "name": "Testudispeed",
+    "description": "Similar to Earth's turtles, the Testudispeed is an armored repitilian creature that is extremely fast and resilient.",
+    "traits": {
+      "tempUpper": 2000,
+      "tempLower": 500,
+      "atmosphere": ["water", "carbonDioxide"],
+      "radiationUpper": 0.75,
+      "radiationLower": 0,
+      "biome": ["rocky", "ocean"],
+      "lifeSpan": 200,
+      "generalResilience": 0.98,
+      "beef": ["Malevolent Meleagris"],
+      "sanity": 0.5
+    },
+    "size": 0.5,
+    "origin": "Unable to track..."
+  },
+  {
+    "id": 5,
+    "name": "Black Hole Bird",
+    "description": "Black Hole Bird, known to some by its scientific name, Gravitus Corvus, has a ravenous appetite with the darkest feathers. These birds seem to eat almost everything, even light.",
+    "traits": {
+      "tempUpper": 3000,
+      "tempLower": 1000,
+      "atmosphere": [],
+      "radiationUpper": 1,
+      "radiationLower": 0.5,
       "biome": ["gas"],
-      "lifeSpan": 15,
-      "generalResilience": 0.9
+      "lifeSpan": 100000,
+      "generalResilience": 1,
+      "beef": [],
+      "sanity": 0.10
     },
     "size": 0.3,
-    "origin": "Earth"
+    "origin": "Unknown"
+  },
+  {
+    "id": 6,
+    "name": "Banana Slugga the Hutt",
+    "description": "These ginormous slugs get their nickname from a certain franchise's J---a the Hutt for their size and how they seem to have no known predators.",
+    "traits": {
+      "tempUpper": 550,
+      "tempLower": 100,
+      "atmosphere": ["water"],
+      "radiationUpper": 0.5,
+      "radiationLower": 0.0,
+      "biome": ["ocean", "rocky"],
+      "lifeSpan": 15,
+      "generalResilience": 0.86,
+      "beef": [],
+      "sanity": 1
+    },
+    "size": 0.85,
+    "origin": "They have been found on many planets, seeming to prefer watery ones though"
+  },
+  {
+    "id": 7,
+    "name": "Malevolent Meleagris",
+    "description": "The Malevolent Meleagris are very similar to Earth's Meleagris genus, the turkey, but the lack of Earth's nurturing atmosphere seems to have fostered an intense evil in these creatures.",
+    "traits": {
+      "tempUpper": 4000,
+      "tempLower": 100,
+      "atmosphere": ["sulfurDioxide", "carbonMonoxide", "carbonDioxide"],
+      "radiationUpper": 1,
+      "radiationLower": 0.5,
+      "biome": ["gas", "rocky"],
+      "lifeSpan": 100,
+      "generalResilience": 0.95,
+      "beef": ["Banana Slugga the Hutt"],
+      "sanity": 0.35 
+    },
+    "size": 0.35,
+    "origin": "Found floating in the heavy atmosphere's of toxic gas planets, absorbing the toxins to power their dark spirit."
+  },
+  {
+    "id": 7,
+    "name": "Rubicus Golem",
+    "description": "These rocky creatures are made from an extremely durable stony composite inlaid with sparkling gemstones. Their safe rehoming has become a humanitarian crisis as some hunt them for the gems inbedded in their bodies.",
+    "traits": {
+      "tempUpper": 3000,
+      "tempLower": 0,
+      "atmosphere": ["corundum"],
+      "radiationUpper": 1,
+      "radiationLower": 0.25,
+      "biome": ["gas", "rocky"],
+      "lifeSpan": 10,
+      "generalResilience": 0.84,
+      "beef": ["Malevolent Meleagris"],
+      "sanity": 1
+    },
+    "size": 0.25,
+    "origin": "Born on gas planets from minerals precipitating in the atmosphere."
   }
-
 ]

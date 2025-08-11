@@ -81,7 +81,7 @@ public static class RatingSystem
         if (allowed.Any(a => NormalizeToken(a) == t)) return 1f;
 
         float floor = Mathf.Clamp01(mismatchFloor);
-        float ceil  = Mathf.Clamp01(Mathf.Max(mismatchCeil, floor));
+        float ceil = Mathf.Clamp01(Mathf.Max(mismatchCeil, floor));
         return Mathf.Lerp(floor, ceil, Mathf.Clamp01(resilience));
     }
 
@@ -117,7 +117,7 @@ public static class RatingSystem
         if (planetLower == null || planetUpper == null) return -1f;
 
         float pLo = planetLower.Value, pHi = planetUpper.Value;
-        float cLo = creatureLower,     cHi = creatureUpper;
+        float cLo = creatureLower, cHi = creatureUpper;
         if (pHi < pLo) (pLo, pHi) = (pHi, pLo);
         if (cHi < cLo) (cLo, cHi) = (cHi, cLo);
 
@@ -137,7 +137,7 @@ public static class RatingSystem
     {
         if (distanceFromStar == null) return -1f;
 
-        float r  = Mathf.Max(distanceFromStar.Value, 0.0001f);
+        float r = Mathf.Max(distanceFromStar.Value, 0.0001f);
         float R0 = Mathf.Max(referenceDistance, 0.0001f);
         float intensity = (R0 * R0) / (r * r);
 
@@ -187,5 +187,29 @@ public static class RatingSystem
         if (s == "rocky" || s == "rock") return "rock";
         if (s == "water" || s == "ocean" || s == "aquatic") return "ocean";
         return s;
+    }
+
+
+    public static List<Creature> updateSanity(List<Creature> creatures)
+    {
+        // Every 10 seconds every creature loses 0.01
+        // Every 10 seconds creatures lose 0.01 based off of their beefs
+        // For later -> Users should get a warning when creatures are at 0.1, 0.05, 0.01
+
+        foreach(Creature creature in creatures)
+        {
+            // Reduce sanity by 0.01
+            creature.traits.sanity = Mathf.Max(0f, creature.traits.sanity - 0.01f);
+
+            // Reduce sanity based on beefs
+            var currentCreatureNames = creatures.Select(c => c.name).ToHashSet();
+            if (creature.traits.beef != null && creature.traits.beef.Count() > 0)
+            {
+                int validBeefCount = creature.traits.beef.Count(beefName => currentCreatureNames.Contains(beefName));
+                float beefPenalty = 0.01f * validBeefCount;
+                creature.traits.sanity = Mathf.Max(0f, creature.traits.sanity - beefPenalty);
+            }
+        }
+        return creatures;
     }
 }
