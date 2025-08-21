@@ -1196,6 +1196,7 @@ GameObject:
   - component: {fileID: 809714249}
   - component: {fileID: 809714251}
   - component: {fileID: 809714250}
+  - component: {fileID: 809714252}
   m_Layer: 5
   m_Name: FinalReport
   m_TagString: Untagged
@@ -1262,6 +1263,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809714248}
   m_CullTransparentMesh: 1
+--- !u!95 &809714252
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809714248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 35ff60416bafd4e67a2d8ecac4a50439, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &830588029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,6 +1487,7 @@ GameObject:
   - component: {fileID: 1090061000}
   - component: {fileID: 1090060999}
   - component: {fileID: 1090061001}
+  - component: {fileID: 1090061002}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1557,6 +1581,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!95 &1090061002
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090060997}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4a1d5a12712b49dcb1c4d1eb3fbd878, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1325552390
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,11 +3078,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4301415376124923435, guid: 4bb2a27f7f08445fa988cc7fb97d7523, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -413
+      value: 260
       objectReference: {fileID: 0}
     - target: {fileID: 4301415376124923435, guid: 4bb2a27f7f08445fa988cc7fb97d7523, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -341
+      value: 240
       objectReference: {fileID: 0}
     - target: {fileID: 4301415376124923435, guid: 4bb2a27f7f08445fa988cc7fb97d7523, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3066,7 +3112,8 @@ PrefabInstance:
       propertyPath: creatureInfoView
       value: 
       objectReference: {fileID: 2084056988}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

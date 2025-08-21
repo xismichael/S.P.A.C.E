@@ -11,10 +11,11 @@ public class CreatureUI : MonoBehaviour
     public CreatureInfoView creatureInfoView;
     public Image creatureImage;
     public CreatureManager creatureManager;
-    
-        void Start()
-    {
+    public Animator CreatureAnimator;
 
+    void Start()
+    {
+        CreatureAnimator.Play(creature.name);
     }
 
     // Update is called once per frame
@@ -26,7 +27,8 @@ public class CreatureUI : MonoBehaviour
     public void Initialize()
     {
         // Initialize any necessary components or settings
-        Debug.Log("Creature UI Initialized");
+        
+
     }
 
     public void OnClick()
