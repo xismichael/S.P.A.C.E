@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 54e20c232af984c74a518e84cadc4636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5854910715260887318
+    second: Gliese-273 b_0
+  - first:
+      213: 6109036434197096844
+    second: Gliese-273 b_1
+  - first:
+      213: 530901073442405896
+    second: Gliese-273 b_2
+  - first:
+      213: 7760555228443022156
+    second: Gliese-273 b_3
+  - first:
+      213: -8346320827339460884
+    second: Gliese-273 b_4
+  - first:
+      213: 1993701754859087096
+    second: Gliese-273 b_5
+  - first:
+      213: 720534763581569052
+    second: Gliese-273 b_6
+  - first:
+      213: -8929629955534568079
+    second: Gliese-273 b_7
+  - first:
+      213: -3160138947288139770
+    second: Gliese-273 b_8
+  - first:
+      213: 5150977968828203215
+    second: Gliese-273 b_9
+  - first:
+      213: 5154567966532634552
+    second: Gliese-273 b_10
+  - first:
+      213: 298994251827360843
+    second: Gliese-273 b_11
+  - first:
+      213: 59501561585882983
+    second: Gliese-273 b_12
+  - first:
+      213: -3532091729135449269
+    second: Gliese-273 b_13
+  - first:
+      213: 1016368380093858018
+    second: Gliese-273 b_14
+  - first:
+      213: -7727448271658079302
+    second: Gliese-273 b_15
+  - first:
+      213: 7866619383438590110
+    second: Gliese-273 b_16
+  - first:
+      213: -1082603603899799162
+    second: Gliese-273 b_17
+  - first:
+      213: -968758081508938499
+    second: Gliese-273 b_18
+  - first:
+      213: -8146232565290323899
+    second: Gliese-273 b_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gliese-273 b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611e0ce5642d04150800000000000000
+      internalID: 5854910715260887318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89ac341548a7c450800000000000000
+      internalID: 6109036434197096844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e7865a6b32e5700800000000000000
+      internalID: 530901073442405896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c439523fcd703bb60800000000000000
+      internalID: 7760555228443022156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeacf0ad69eb2c80800000000000000
+      internalID: -8346320827339460884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4e276de2d0bab10800000000000000
+      internalID: 1993701754859087096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c187997cc8adff900800000000000000
+      internalID: 720534763581569052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175ccacddd4931480800000000000000
+      internalID: -8929629955534568079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608730ede5ee424d0800000000000000
+      internalID: -3160138947288139770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04eddeb23fb7740800000000000000
+      internalID: 5150977968828203215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b709c76144b88740800000000000000
+      internalID: 5154567966532634552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44bd0a10bd362400800000000000000
+      internalID: 298994251827360843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76758e1ea5463d000800000000000000
+      internalID: 59501561585882983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b49c2494d7bfec0800000000000000
+      internalID: -3532091729135449269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e00f6028adda1e00800000000000000
+      internalID: 1016368380093858018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb2d9b1db692c490800000000000000
+      internalID: -7727448271658079302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e904f0d66a8db2d60800000000000000
+      internalID: 7866619383438590110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689aef412c1d9f0f0800000000000000
+      internalID: -1082603603899799162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcee5658a74e82f0800000000000000
+      internalID: -968758081508938499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gliese-273 b_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540b62874a4c2fe80800000000000000
+      internalID: -8146232565290323899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gliese-273 b_0: 5854910715260887318
+      Gliese-273 b_1: 6109036434197096844
+      Gliese-273 b_10: 5154567966532634552
+      Gliese-273 b_11: 298994251827360843
+      Gliese-273 b_12: 59501561585882983
+      Gliese-273 b_13: -3532091729135449269
+      Gliese-273 b_14: 1016368380093858018
+      Gliese-273 b_15: -7727448271658079302
+      Gliese-273 b_16: 7866619383438590110
+      Gliese-273 b_17: -1082603603899799162
+      Gliese-273 b_18: -968758081508938499
+      Gliese-273 b_19: -8146232565290323899
+      Gliese-273 b_2: 530901073442405896
+      Gliese-273 b_3: 7760555228443022156
+      Gliese-273 b_4: -8346320827339460884
+      Gliese-273 b_5: 1993701754859087096
+      Gliese-273 b_6: 720534763581569052
+      Gliese-273 b_7: -8929629955534568079
+      Gliese-273 b_8: -3160138947288139770
+      Gliese-273 b_9: 5150977968828203215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

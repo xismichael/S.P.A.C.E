@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 9f3611e42b4694c3cb5e2b2628b070d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4932272818753369489
+    second: TRAPPIST-1 b_0
+  - first:
+      213: 712610363856275660
+    second: TRAPPIST-1 b_1
+  - first:
+      213: -368177011916677098
+    second: TRAPPIST-1 b_2
+  - first:
+      213: 8663904739888011469
+    second: TRAPPIST-1 b_3
+  - first:
+      213: 4546774665290803799
+    second: TRAPPIST-1 b_4
+  - first:
+      213: 6015583604189864104
+    second: TRAPPIST-1 b_5
+  - first:
+      213: -2614555148019135989
+    second: TRAPPIST-1 b_6
+  - first:
+      213: -5621462048247031893
+    second: TRAPPIST-1 b_7
+  - first:
+      213: 3705434268873979150
+    second: TRAPPIST-1 b_8
+  - first:
+      213: -1849567286090528303
+    second: TRAPPIST-1 b_9
+  - first:
+      213: -2979216105879494063
+    second: TRAPPIST-1 b_10
+  - first:
+      213: 3460336359550890179
+    second: TRAPPIST-1 b_11
+  - first:
+      213: 6334394741664834245
+    second: TRAPPIST-1 b_12
+  - first:
+      213: -7251092972717860251
+    second: TRAPPIST-1 b_13
+  - first:
+      213: 7132506471758327464
+    second: TRAPPIST-1 b_14
+  - first:
+      213: 4061609561700107711
+    second: TRAPPIST-1 b_15
+  - first:
+      213: 2416361088015277341
+    second: TRAPPIST-1 b_16
+  - first:
+      213: -5687853680869712511
+    second: TRAPPIST-1 b_17
+  - first:
+      213: 1752570865464415026
+    second: TRAPPIST-1 b_18
+  - first:
+      213: 953989153607813017
+    second: TRAPPIST-1 b_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a04eee00c0d8bb0800000000000000
+      internalID: -4932272818753369489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc84ae0b953b3e900800000000000000
+      internalID: 712610363856275660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610ed3655f8f3eaf0800000000000000
+      internalID: -368177011916677098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc819d4257f5c3870800000000000000
+      internalID: 8663904739888011469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a676ed773691f30800000000000000
+      internalID: 4546774665290803799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0a6648a65ab7350800000000000000
+      internalID: 6015583604189864104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a86a402fb37bbd0800000000000000
+      internalID: -2614555148019135989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba755e70d0e8cf1b0800000000000000
+      internalID: -5621462048247031893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05fac6d5d85c6330800000000000000
+      internalID: 3705434268873979150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9046c4a540556e0800000000000000
+      internalID: -1849567286090528303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1522eeb7cb2b7a6d0800000000000000
+      internalID: -2979216105879494063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0366ad595950030800000000000000
+      internalID: 3460336359550890179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2e80cd47a48e750800000000000000
+      internalID: 6334394741664834245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a12d7fb51fe5b90800000000000000
+      internalID: -7251092972717860251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae645fa8d0cbf260800000000000000
+      internalID: 7132506471758327464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb50775806cbd5830800000000000000
+      internalID: 4061609561700107711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d1a3c6b93a88120800000000000000
+      internalID: 2416361088015277341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ddc59763fa011b0800000000000000
+      internalID: -5687853680869712511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23394b7aae1625810800000000000000
+      internalID: 1752570865464415026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAPPIST-1 b_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9978e5ca4104d3d00800000000000000
+      internalID: 953989153607813017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TRAPPIST-1 b_0: -4932272818753369489
+      TRAPPIST-1 b_1: 712610363856275660
+      TRAPPIST-1 b_10: -2979216105879494063
+      TRAPPIST-1 b_11: 3460336359550890179
+      TRAPPIST-1 b_12: 6334394741664834245
+      TRAPPIST-1 b_13: -7251092972717860251
+      TRAPPIST-1 b_14: 7132506471758327464
+      TRAPPIST-1 b_15: 4061609561700107711
+      TRAPPIST-1 b_16: 2416361088015277341
+      TRAPPIST-1 b_17: -5687853680869712511
+      TRAPPIST-1 b_18: 1752570865464415026
+      TRAPPIST-1 b_19: 953989153607813017
+      TRAPPIST-1 b_2: -368177011916677098
+      TRAPPIST-1 b_3: 8663904739888011469
+      TRAPPIST-1 b_4: 4546774665290803799
+      TRAPPIST-1 b_5: 6015583604189864104
+      TRAPPIST-1 b_6: -2614555148019135989
+      TRAPPIST-1 b_7: -5621462048247031893
+      TRAPPIST-1 b_8: 3705434268873979150
+      TRAPPIST-1 b_9: -1849567286090528303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

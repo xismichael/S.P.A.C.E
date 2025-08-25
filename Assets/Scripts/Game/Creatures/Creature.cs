@@ -7,6 +7,7 @@ public class Creature
     public string name;
     public string description;
     public CreatureTraits traits;
+    public AmbiguousData ambiguousData;
     public float size;
     public string origin;
 }
@@ -25,4 +26,15 @@ public class CreatureTraits
     public float generalResilience;  // 0
     public string[] beef;
     public float sanity;
+}
+
+public class AmbiguousData
+{
+    // Placeholder for future ambiguous data fields
+    public string thermalTolerance;
+    public string respiratoryMedium;
+    public string radiationTolerance;
+    public string ecologicalAffinities;
+    public string longevityIndex;
+    public string InterSpeciesHostility;
 }

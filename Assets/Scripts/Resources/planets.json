@@ -19,6 +19,8 @@
     "description": "Kepler-62 f is in the habitable zone of its host star, Kepler-62 - a star that is cooler and smaller than the Earth’s sun. To have the same conditions for life as Earth does, it would need to have dramatically more CO2 to be warm enough to maintain liquid water on its surface and keep it from freezing. Its atmosphere would have to be 3-5 times thicker than Earth’s with 2500 times more carbon dioxide. ",
     "conditions": {
       "planetType": "rocky",
+      "tempUpper": 236,
+      "tempLower": 235,
       "lengthOfYear": 267.3,
       "habitableZone": 1,
       "atmosphere": ["carbonDioxide"],
@@ -176,6 +178,8 @@
     "description": "TOI-270 d is a Neptune-like giant planet orbiting an M-type star. It has a mass of 4.78 times Earth and is a hycean world, a class of exoplanets that may be covered in planet-wide oceans beneath a hydrogen-rich atmosphere. Has the potential to be very hot but nothing is currently confirmed on the temperature of this planet.",
     "conditions": {
       "planetType": "ocean",
+      "tempUpper": 1112,
+      "tempLower": 550,
       "lengthOfYear": 11.4,
       "habitableZone": 0,
       "atmosphere": ["water", "carbonDioxide", "methane"],
@@ -186,22 +190,7 @@
   {
     "id": 13,
     "name": "Gliese-273 b",
-    "description": "Gliese-273 b, also known as Luyten b, is a likely rocky super-Earth (it is larger than Earth but smaller than Neptune). With an Earth-like atmosphere it would have an equilibrium temperature similar to Earth’s making it habitable. It is in the habitable zone of the nearby red dwarf Luyten’s star, a very dim star meaning it could have low levels of solar radiation despite its closeness.",
-    "conditions": {
-      "planetType": "rocky",
-      "tempUpper": 259,
-      "tempLower": 259,
-      "lengthOfYear": 18.6,
-      "habitableZone": 1,
-      "distanceFromStar": 0.091
-    },
-    "size": 0.5
-  },
-
-  {
-    "id": 14,
-    "name": "test",
-    "description": "this is a testing planet",
+    "description": "Gliese-273 b, also known as Luyten b, is a likely rocky super-Earth (it is larger than Earth but smaller than Neptune). With an Earth-like atmosphere it would have an equilibrium temperature similar to Earth’s making it habitable. It is in the habitable zone of the nearby red dwarf Luyten's star, a very dim star meaning it could have low levels of solar radiation despite its closeness.",
     "conditions": {
       "planetType": "rocky",
       "tempUpper": 259,

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9092642537690220962}
   - component: {fileID: -2234962053116537223}
   - component: {fileID: 3943688953614147658}
+  - component: {fileID: -8414675495406437397}
   m_Layer: 5
   m_Name: ExamplePlanet
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   planetImage: {fileID: 9092642537690220962}
   planetManager: {fileID: 0}
   button: {fileID: 0}
+  PlanetAnimator: {fileID: -8414675495406437397}
 --- !u!114 &3943688953614147658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,3 +147,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &-8414675495406437397
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3879601635272404538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ff313e63397d40c58a2ee49c12b5fe3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

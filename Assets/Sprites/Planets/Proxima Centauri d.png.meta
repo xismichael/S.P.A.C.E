@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: df97f1bde499240248916d08f3de6836
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7752908407537843816
+    second: Proxima Centauri d_0
+  - first:
+      213: -3188348011052974760
+    second: Proxima Centauri d_1
+  - first:
+      213: -4855370949706187829
+    second: Proxima Centauri d_2
+  - first:
+      213: 9164569212290067331
+    second: Proxima Centauri d_3
+  - first:
+      213: -6676567662641334975
+    second: Proxima Centauri d_4
+  - first:
+      213: -356429296817561787
+    second: Proxima Centauri d_5
+  - first:
+      213: -1034802854540850686
+    second: Proxima Centauri d_6
+  - first:
+      213: 2085994365143180163
+    second: Proxima Centauri d_7
+  - first:
+      213: 6882249484984018625
+    second: Proxima Centauri d_8
+  - first:
+      213: 3966917384311401127
+    second: Proxima Centauri d_9
+  - first:
+      213: 3858751974926902329
+    second: Proxima Centauri d_10
+  - first:
+      213: -3558926366990638642
+    second: Proxima Centauri d_11
+  - first:
+      213: 3843147002504139093
+    second: Proxima Centauri d_12
+  - first:
+      213: -7866858944018823297
+    second: Proxima Centauri d_13
+  - first:
+      213: -8627074494554285094
+    second: Proxima Centauri d_14
+  - first:
+      213: 5224662129339006806
+    second: Proxima Centauri d_15
+  - first:
+      213: 6844940737925248265
+    second: Proxima Centauri d_16
+  - first:
+      213: -2516341978862369390
+    second: Proxima Centauri d_17
+  - first:
+      213: -1827049217738524614
+    second: Proxima Centauri d_18
+  - first:
+      213: 54794742641441556
+    second: Proxima Centauri d_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Proxima Centauri d_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891419841e2286490800000000000000
+      internalID: -7752908407537843816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d3dd46066b0c3d0800000000000000
+      internalID: -3188348011052974760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbf20a98d14e9cb0800000000000000
+      internalID: -4855370949706187829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38be70284271f2f70800000000000000
+      internalID: 9164569212290067331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1453765b5111853a0800000000000000
+      internalID: -6676567662641334975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f95a76175bd0bf0800000000000000
+      internalID: -356429296817561787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a48825944a3a1f0800000000000000
+      internalID: -1034802854540850686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38363d1b2d0f2fc10800000000000000
+      internalID: 2085994365143180163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c666106179a28f50800000000000000
+      internalID: 6882249484984018625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aae339e7525d0730800000000000000
+      internalID: 3966917384311401127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934ead50a7a0d8530800000000000000
+      internalID: 3858751974926902329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec160c143572c9ec0800000000000000
+      internalID: -3558926366990638642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551dddf36d9955530800000000000000
+      internalID: 3843147002504139093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7747a7887d43d290800000000000000
+      internalID: -7866858944018823297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_14
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb52459479764880800000000000000
+      internalID: -8627074494554285094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_15
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fffa2768ab18840800000000000000
+      internalID: 5224662129339006806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_16
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90572a8c55d1efe50800000000000000
+      internalID: 6844940737925248265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_17
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29541886d48241dd0800000000000000
+      internalID: -2516341978862369390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_18
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a383a85aa6405a6e0800000000000000
+      internalID: -1827049217738524614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proxima Centauri d_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bb3b2378ba2c000800000000000000
+      internalID: 54794742641441556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Proxima Centauri d_0: -7752908407537843816
+      Proxima Centauri d_1: -3188348011052974760
+      Proxima Centauri d_10: 3858751974926902329
+      Proxima Centauri d_11: -3558926366990638642
+      Proxima Centauri d_12: 3843147002504139093
+      Proxima Centauri d_13: -7866858944018823297
+      Proxima Centauri d_14: -8627074494554285094
+      Proxima Centauri d_15: 5224662129339006806
+      Proxima Centauri d_16: 6844940737925248265
+      Proxima Centauri d_17: -2516341978862369390
+      Proxima Centauri d_18: -1827049217738524614
+      Proxima Centauri d_19: 54794742641441556
+      Proxima Centauri d_2: -4855370949706187829
+      Proxima Centauri d_3: 9164569212290067331
+      Proxima Centauri d_4: -6676567662641334975
+      Proxima Centauri d_5: -356429296817561787
+      Proxima Centauri d_6: -1034802854540850686
+      Proxima Centauri d_7: 2085994365143180163
+      Proxima Centauri d_8: 6882249484984018625
+      Proxima Centauri d_9: 3966917384311401127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

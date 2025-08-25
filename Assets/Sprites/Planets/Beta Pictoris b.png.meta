@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 88cfc8e011bb943ae9079b92cfcece9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6476794913950906606
+    second: Beta Pictoris b_0
+  - first:
+      213: -4774751467103185183
+    second: Beta Pictoris b_1
+  - first:
+      213: 2745681206903158311
+    second: Beta Pictoris b_2
+  - first:
+      213: -8252725286759716863
+    second: Beta Pictoris b_3
+  - first:
+      213: 5664853758978056498
+    second: Beta Pictoris b_4
+  - first:
+      213: 8508550988888040341
+    second: Beta Pictoris b_5
+  - first:
+      213: -3900387270755543466
+    second: Beta Pictoris b_6
+  - first:
+      213: -8930153890231882666
+    second: Beta Pictoris b_7
+  - first:
+      213: 2413241958435140388
+    second: Beta Pictoris b_8
+  - first:
+      213: -5992487454774226235
+    second: Beta Pictoris b_9
+  - first:
+      213: -4452657310415743430
+    second: Beta Pictoris b_10
+  - first:
+      213: 1166272693490018809
+    second: Beta Pictoris b_11
+  - first:
+      213: 4521594118202359985
+    second: Beta Pictoris b_12
+  - first:
+      213: -2970367732612747528
+    second: Beta Pictoris b_13
+  - first:
+      213: 7887198485147580264
+    second: Beta Pictoris b_14
+  - first:
+      213: -668757168955904986
+    second: Beta Pictoris b_15
+  - first:
+      213: -7503350642758616054
+    second: Beta Pictoris b_16
+  - first:
+      213: 910256827595420306
+    second: Beta Pictoris b_17
+  - first:
+      213: -2480695336433513030
+    second: Beta Pictoris b_18
+  - first:
+      213: -401982176776305822
+    second: Beta Pictoris b_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beta Pictoris b_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21746ee575dcd16a0800000000000000
+      internalID: -6476794913950906606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 9
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e61a80a6dcacbdb0800000000000000
+      internalID: -4774751467103185183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 9
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726bdeba28e9a1620800000000000000
+      internalID: 2745681206903158311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108adc5931e687d80800000000000000
+      internalID: -8252725286759716863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2316c68ea7a9d9e40800000000000000
+      internalID: 5664853758978056498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59368fd4b02741670800000000000000
+      internalID: 8508550988888040341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6561920417a0fd9c0800000000000000
+      internalID: -3900387270755543466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ce72fc958b11480800000000000000
+      internalID: -8930153890231882666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423389976ce8d7120800000000000000
+      internalID: 2413241958435140388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c29231d86866dca0800000000000000
+      internalID: -5992487454774226235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a369f1274cbf432c0800000000000000
+      internalID: -4452657310415743430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9e5b6e5de6f2010800000000000000
+      internalID: 1166272693490018809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b082f1e4edefbe30800000000000000
+      internalID: 4521594118202359985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea55de84227c6d0800000000000000
+      internalID: -2970367732612747528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_14
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867783ceb35f47d60800000000000000
+      internalID: 7887198485147580264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_15
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 9
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c2367e5e818b6f0800000000000000
+      internalID: -668757168955904986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_16
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c7c29485ebed790800000000000000
+      internalID: -7503350642758616054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_17
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 9
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292f23f03c1e1ac00800000000000000
+      internalID: 910256827595420306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_18
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd89eb1cbcc29dd0800000000000000
+      internalID: -2480695336433513030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beta Pictoris b_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263c53b075fdb6af0800000000000000
+      internalID: -401982176776305822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beta Pictoris b_0: -6476794913950906606
+      Beta Pictoris b_1: -4774751467103185183
+      Beta Pictoris b_10: -4452657310415743430
+      Beta Pictoris b_11: 1166272693490018809
+      Beta Pictoris b_12: 4521594118202359985
+      Beta Pictoris b_13: -2970367732612747528
+      Beta Pictoris b_14: 7887198485147580264
+      Beta Pictoris b_15: -668757168955904986
+      Beta Pictoris b_16: -7503350642758616054
+      Beta Pictoris b_17: 910256827595420306
+      Beta Pictoris b_18: -2480695336433513030
+      Beta Pictoris b_19: -401982176776305822
+      Beta Pictoris b_2: 2745681206903158311
+      Beta Pictoris b_3: -8252725286759716863
+      Beta Pictoris b_4: 5664853758978056498
+      Beta Pictoris b_5: 8508550988888040341
+      Beta Pictoris b_6: -3900387270755543466
+      Beta Pictoris b_7: -8930153890231882666
+      Beta Pictoris b_8: 2413241958435140388
+      Beta Pictoris b_9: -5992487454774226235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

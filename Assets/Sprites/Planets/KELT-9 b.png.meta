@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 7fd7f10e6a8d246e49372df6a9189b11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7318226634505430619
+    second: KELT-9 b_0
+  - first:
+      213: 6793812703125665693
+    second: KELT-9 b_1
+  - first:
+      213: -6592925824955256879
+    second: KELT-9 b_2
+  - first:
+      213: 8054903094972680798
+    second: KELT-9 b_3
+  - first:
+      213: -3813349531688066448
+    second: KELT-9 b_4
+  - first:
+      213: -92894403730403589
+    second: KELT-9 b_5
+  - first:
+      213: -2732830122887596313
+    second: KELT-9 b_6
+  - first:
+      213: 6372455166164227109
+    second: KELT-9 b_7
+  - first:
+      213: -1817919728231558776
+    second: KELT-9 b_8
+  - first:
+      213: 7993198208199416109
+    second: KELT-9 b_9
+  - first:
+      213: 6673123289222190700
+    second: KELT-9 b_10
+  - first:
+      213: -8995957933146517556
+    second: KELT-9 b_11
+  - first:
+      213: -8511100106390012724
+    second: KELT-9 b_12
+  - first:
+      213: -6140953662642131189
+    second: KELT-9 b_13
+  - first:
+      213: -7419207149517741646
+    second: KELT-9 b_14
+  - first:
+      213: 2293962135881891883
+    second: KELT-9 b_15
+  - first:
+      213: -3091309199205294180
+    second: KELT-9 b_16
+  - first:
+      213: -3862984165799312673
+    second: KELT-9 b_17
+  - first:
+      213: 7117813670056216623
+    second: KELT-9 b_18
+  - first:
+      213: 748656617553852204
+    second: KELT-9 b_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KELT-9 b_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56af77b9509f8560800000000000000
+      internalID: 7318226634505430619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97775888a8784e50800000000000000
+      internalID: 6793812703125665693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfea0d94e83184a0800000000000000
+      internalID: -6592925824955256879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a8a0c20b3c8cf60800000000000000
+      internalID: 8054903094972680798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072a45f0ec2441bc0800000000000000
+      internalID: -3813349531688066448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe07003809f5bef0800000000000000
+      internalID: -92894403730403589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e63ccd7b79031ad0800000000000000
+      internalID: -2732830122887596313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524525ef5328f6850800000000000000
+      internalID: 6372455166164227109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881559093a375c6e0800000000000000
+      internalID: -1817919728231558776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29d30bab6b8dee60800000000000000
+      internalID: 7993198208199416109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66997c9642bb9c50800000000000000
+      internalID: 6673123289222190700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfc1742cefe72380800000000000000
+      internalID: -8995957933146517556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc75d60c8f72e980800000000000000
+      internalID: -8511100106390012724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fe4141e23f6caa0800000000000000
+      internalID: -6140953662642131189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_14
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1e4f9f76ea90990800000000000000
+      internalID: -7419207149517741646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_15
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20cf6d986ac5df10800000000000000
+      internalID: 2293962135881891883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_16
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f987a69a67915d0800000000000000
+      internalID: -3091309199205294180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_17
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2c2904e5ce36ac0800000000000000
+      internalID: -3862984165799312673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_18
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28ce1532dd87c260800000000000000
+      internalID: 7117813670056216623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KELT-9 b_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27fa042a33c36a00800000000000000
+      internalID: 748656617553852204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KELT-9 b_0: 7318226634505430619
+      KELT-9 b_1: 6793812703125665693
+      KELT-9 b_10: 6673123289222190700
+      KELT-9 b_11: -8995957933146517556
+      KELT-9 b_12: -8511100106390012724
+      KELT-9 b_13: -6140953662642131189
+      KELT-9 b_14: -7419207149517741646
+      KELT-9 b_15: 2293962135881891883
+      KELT-9 b_16: -3091309199205294180
+      KELT-9 b_17: -3862984165799312673
+      KELT-9 b_18: 7117813670056216623
+      KELT-9 b_19: 748656617553852204
+      KELT-9 b_2: -6592925824955256879
+      KELT-9 b_3: 8054903094972680798
+      KELT-9 b_4: -3813349531688066448
+      KELT-9 b_5: -92894403730403589
+      KELT-9 b_6: -2732830122887596313
+      KELT-9 b_7: 6372455166164227109
+      KELT-9 b_8: -1817919728231558776
+      KELT-9 b_9: 7993198208199416109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

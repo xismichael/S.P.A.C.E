@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: b2435536de85c4d77b20eba7060bce55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -480613947177702502
+    second: Hammerhead Hobbit_0
+  - first:
+      213: -3265126177257091064
+    second: Hammerhead Hobbit_1
+  - first:
+      213: -8042797959950519852
+    second: Hammerhead Hobbit_2
+  - first:
+      213: -2288436736382640150
+    second: Hammerhead Hobbit_3
+  - first:
+      213: -80147010653001099
+    second: Hammerhead Hobbit_4
+  - first:
+      213: -7824567386533467028
+    second: Hammerhead Hobbit_5
+  - first:
+      213: -2201769023881506521
+    second: Hammerhead Hobbit_6
+  - first:
+      213: -7869690008897792743
+    second: Hammerhead Hobbit_7
+  - first:
+      213: -265297354494293830
+    second: Hammerhead Hobbit_8
+  - first:
+      213: 6204693973137324518
+    second: Hammerhead Hobbit_9
+  - first:
+      213: 3613009056519488785
+    second: Hammerhead Hobbit_10
+  - first:
+      213: 500477372794783441
+    second: Hammerhead Hobbit_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bef5459248459f0800000000000000
+      internalID: -480613947177702502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80013c98a01ffa2d0800000000000000
+      internalID: -3265126177257091064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_2
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1b9e43edd326090800000000000000
+      internalID: -8042797959950519852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_3
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef55f4b9e6dd30e0800000000000000
+      internalID: -2288436736382640150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_4
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ae73ce7b243eef0800000000000000
+      internalID: -80147010653001099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_5
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 19
+        width: 212
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ce0941b6d896390800000000000000
+      internalID: -7824567386533467028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_6
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721951efcbeb171e0800000000000000
+      internalID: -2201769023881506521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_7
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915d43fd1ae39c290800000000000000
+      internalID: -7869690008897792743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_8
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab844813679715cf0800000000000000
+      internalID: -265297354494293830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_9
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e97bd07b408b1650800000000000000
+      internalID: 6204693973137324518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_10
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1150d18289cf32230800000000000000
+      internalID: 3613009056519488785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammerhead Hobbit_11
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 19
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6cd87d48d02f600800000000000000
+      internalID: 500477372794783441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hammerhead Hobbit_0: -480613947177702502
+      Hammerhead Hobbit_1: -3265126177257091064
+      Hammerhead Hobbit_10: 3613009056519488785
+      Hammerhead Hobbit_11: 500477372794783441
+      Hammerhead Hobbit_2: -8042797959950519852
+      Hammerhead Hobbit_3: -2288436736382640150
+      Hammerhead Hobbit_4: -80147010653001099
+      Hammerhead Hobbit_5: -7824567386533467028
+      Hammerhead Hobbit_6: -2201769023881506521
+      Hammerhead Hobbit_7: -7869690008897792743
+      Hammerhead Hobbit_8: -265297354494293830
+      Hammerhead Hobbit_9: 6204693973137324518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

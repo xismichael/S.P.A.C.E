@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 6ed42a46c0d334d6dbff6d1a5fe95fb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -406375693414130932
+    second: Kepler-62 e_0
+  - first:
+      213: 2621334080627865702
+    second: Kepler-62 e_1
+  - first:
+      213: 3260892417892256082
+    second: Kepler-62 e_2
+  - first:
+      213: -7333148439477195039
+    second: Kepler-62 e_3
+  - first:
+      213: 5795791942969686685
+    second: Kepler-62 e_4
+  - first:
+      213: -231131090715441617
+    second: Kepler-62 e_5
+  - first:
+      213: -1825019392457814852
+    second: Kepler-62 e_6
+  - first:
+      213: -402656655838968473
+    second: Kepler-62 e_7
+  - first:
+      213: 3282444387828376800
+    second: Kepler-62 e_8
+  - first:
+      213: -5212500540748437725
+    second: Kepler-62 e_9
+  - first:
+      213: -4528713748193815986
+    second: Kepler-62 e_10
+  - first:
+      213: 2439111153224692135
+    second: Kepler-62 e_11
+  - first:
+      213: -4238451068142797980
+    second: Kepler-62 e_12
+  - first:
+      213: 8170177400633363629
+    second: Kepler-62 e_13
+  - first:
+      213: -8431332333945731149
+    second: Kepler-62 e_14
+  - first:
+      213: -6657342156503766820
+    second: Kepler-62 e_15
+  - first:
+      213: -583723726478813581
+    second: Kepler-62 e_16
+  - first:
+      213: 7534346532663289105
+    second: Kepler-62 e_17
+  - first:
+      213: -396422077403757484
+    second: Kepler-62 e_18
+  - first:
+      213: 4613345453834467112
+    second: Kepler-62 e_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kepler-62 e_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b92bcb5734c5af0800000000000000
+      internalID: -406375693414130932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 9
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668f2793579d06420800000000000000
+      internalID: 2621334080627865702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 9
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598b3b8064014d20800000000000000
+      internalID: 3260892417892256082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee60c3d85c6b3a90800000000000000
+      internalID: -7333148439477195039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a77c0901ace6050800000000000000
+      internalID: 5795791942969686685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 9
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f268b516f7bdaccf0800000000000000
+      internalID: -231131090715441617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc4a5c288a3ca6e0800000000000000
+      internalID: -1825019392457814852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_7
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 9
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7658546a7e9796af0800000000000000
+      internalID: -402656655838968473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e42c7397c59d8d20800000000000000
+      internalID: 3282444387828376800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327682d006a79a7b0800000000000000
+      internalID: -5212500540748437725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 9
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42da7517d6c621c0800000000000000
+      internalID: -4528713748193815986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1b6afbba679d120800000000000000
+      internalID: 2439111153224692135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_12
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 9
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b3975b53ffd25c0800000000000000
+      internalID: -4238451068142797980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0da4fe0d426170800000000000000
+      internalID: 8170177400633363629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_14
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b746e3d9e3edfa80800000000000000
+      internalID: -8431332333945731149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_15
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd82c5da49e5c93a0800000000000000
+      internalID: -6657342156503766820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_16
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376534c0d5236e7f0800000000000000
+      internalID: -583723726478813581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_17
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1156716b0406f8860800000000000000
+      internalID: 7534346532663289105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_18
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4540a3f8830af7af0800000000000000
+      internalID: -396422077403757484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kepler-62 e_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82777f96f35e50040800000000000000
+      internalID: 4613345453834467112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kepler-62 e_0: -406375693414130932
+      Kepler-62 e_1: 2621334080627865702
+      Kepler-62 e_10: -4528713748193815986
+      Kepler-62 e_11: 2439111153224692135
+      Kepler-62 e_12: -4238451068142797980
+      Kepler-62 e_13: 8170177400633363629
+      Kepler-62 e_14: -8431332333945731149
+      Kepler-62 e_15: -6657342156503766820
+      Kepler-62 e_16: -583723726478813581
+      Kepler-62 e_17: 7534346532663289105
+      Kepler-62 e_18: -396422077403757484
+      Kepler-62 e_19: 4613345453834467112
+      Kepler-62 e_2: 3260892417892256082
+      Kepler-62 e_3: -7333148439477195039
+      Kepler-62 e_4: 5795791942969686685
+      Kepler-62 e_5: -231131090715441617
+      Kepler-62 e_6: -1825019392457814852
+      Kepler-62 e_7: -402656655838968473
+      Kepler-62 e_8: 3282444387828376800
+      Kepler-62 e_9: -5212500540748437725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

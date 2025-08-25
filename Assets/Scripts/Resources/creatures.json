@@ -15,6 +15,14 @@
       "beef": [],
       "sanity": 0.15 
     },
+    "ambiguousData": {
+      "thermalTolerance": "The monkey's inherent radiation gives off its own heat, maintaining the monkey's temperature regardless of its surroundings.",
+      "respiratoryMedium": "The Radioactive Monkey prefers its atmosphere to have the molecules present in the atmosphere of its non radioactive kin.",
+      "radiationTolerance": "Outer sources of radiation cannot even compare to its inner source.",
+      "ecologicalAffinities": "This monkey can swim, walk on land, and, powered by its inner radiation, it can even somehow float.",
+      "longevityIndex": "This species is very resilient - its radioactive nature makes it resistant to most planetary conditions. However, they have short life spans due to their inherent nature and they seem to be aware of this as they are not pleased at all when they have to spend their time being rehomed.",
+      "InterSpeciesHostility": "The Radioactive Monkey is friendly towards all others but, due to its radioactive nature, most other creatures have to stay far away." 
+    },
     "size": 0.4,
     "origin": "Earth"
   },
@@ -23,7 +31,7 @@
     "name": "Strange Space Dog",
     "description": "He seems like a normal dog and yet, no one's ever seen below the suit so who can really tell?",
     "traits": {
-      "tempUpper": 500,
+      "tempUpper": 700,
       "tempLower": 100,
       "atmosphere": [],
       "radiationUpper": 0.75,
@@ -33,6 +41,14 @@
       "generalResilience": 0.85,
       "beef": [],
       "sanity": 1 
+    },
+    "ambiguousData": {
+      "thermalTolerance": "His paws are protected from temperatures up to 700 Kelvin but a suit can only do so much to boost a dog's comfort in outside weathers.",
+      "respiratoryMedium": "The Space Dog's suit and helmet make any atmosphere habitable.",
+      "radiationTolerance": "The suit helps him withstand radiation levels but its functioning suffers in high radiation levels.",
+      "ecologicalAffinities": "He prefers rocky terrain similar to Earth's.",
+      "longevityIndex": "With his protective suit, optimistic attitude, and high intelligence the Space Dog can survive in many environments and lives around 5 times longer than the average dog.",
+      "InterSpeciesHostility": "The Strange Space Dog is very friendly, getting along well with all other creatures."
     },
     "size": 0.5,
     "origin": "Appeared on a roaming spaceship one day"
@@ -50,27 +66,43 @@
       "biome": ["rocky", "ocean"],
       "lifeSpan": 3,
       "generalResilience": 0.65,
-      "beef": ["Strange Space Dog", "Octopus Cat", "Testudispeed", "Black Hole Bird"],
+      "beef": ["Kabouterblip", "Strange Space Dog", "Hammerhead Hobbit", "Testudispeed", "Black Hole Bird", "Radioactive Monkey"],
       "sanity": 0.75 
+    },
+    "ambiguousData": {
+      "thermalTolerance": "The Walking Fish does not enjoy burning its feet - preferring cooler temperatures up to 400 Kelvin.",
+      "respiratoryMedium": "Despite having feet, the Walking Fish still wants a watery atmosphere - like a regular fish.",
+      "radiationTolerance": "This creature evolved to have feet but does NOT have an evolved resistence to radiation.",
+      "ecologicalAffinities": "The Walking Fish prefers oceans but can also make due on rocky terrains.",
+      "longevityIndex": "It lives longer than your average goldfish but is still sensitive like your average goldfish.",
+      "InterSpeciesHostility": "The Walking Fish is a sensitive creature, disliking most other aliens, but he seems to like the spaceship alright."
     },
     "size": 0.25,
     "origin": "Earth"
   },
   {
     "id": 3,
-    "name": "Octopus Cat",
-    "description": "Github mascot type shi.",
+    "name": "Hammerhead Hobbit",
+    "description": "The head of a hammerhead shark and the body of a ... well, a hobbit.",
     "traits": {
       "tempUpper": 400,
       "tempLower": 100,
-      "atmosphere": ["water"],
+      "atmosphere": ["water", "carbonDioxide"],
       "radiationUpper": 0.75,
       "radiationLower": 0.1,
       "biome": ["rocky", "ocean"],
       "lifeSpan": 40,
       "generalResilience": 0.6,
-      "beef": ["Strange Space Dog"],
+      "beef": ["Kabouterblip", "Radioactive Monkey", "Black Hole Bird"],
       "sanity": 0.8
+    },
+    "ambiguousData": {
+      "thermalTolerance": "The Hammerhead Hobbit prefers temperatures up to 400 Kelvin, friendly to both its shark and humanoid self.",
+      "respiratoryMedium": "It likes atmospheres with molecules familiar to the humans and sharks of Earth.",
+      "radiationTolerance": "Its tough shark skin makes the creature resistant to higher level of radiations than most.",
+      "ecologicalAffinities": "It likes aquatic and rocky terrains as this creature is proficient both in water and on land.",
+      "longevityIndex": "This is a very relaxed creature, quite resilient, easy to be around, and well-mannered on the ship.",
+      "InterSpeciesHostility": "The Hammerhead Hobbit is friendly to most creatures - with the exclusion of creatures too dangerous to be around."
     },
     "size": 0.75,
     "origin": "A forgotten water planet"
@@ -78,7 +110,7 @@
   {
     "id": 4,
     "name": "Testudispeed",
-    "description": "Similar to Earth's turtles, the Testudispeed is an armored repitilian creature that is extremely fast and resilient.",
+    "description": "Similar to Earth's shellfish, the Testudispeed is an armored repitilian creature that is extremely fast and resilient.",
     "traits": {
       "tempUpper": 2000,
       "tempLower": 500,
@@ -88,9 +120,18 @@
       "biome": ["rocky", "ocean"],
       "lifeSpan": 200,
       "generalResilience": 0.98,
-      "beef": ["Malevolent Meleagris"],
+      "beef": ["Kabouterblip", "Black Hole Bird"],
       "sanity": 0.5
     },
+    "ambiguousData": {
+      "thermalTolerance": "It prefers hotter temperatures of at least 500 Kelvin and its shell protects it quite well in temperatures up to 2000K.",
+      "respiratoryMedium": "The Testudispeed likes a watery atmosphere with some greenhouse gases to keep him and the planet warm.",
+      "radiationTolerance": "Its tough shell can fight off quite a high range of radiation.",
+      "ecologicalAffinities": "It loves to have a rocky terrain to run on but is also amiable towards watery terrains where it can swim.",
+      "longevityIndex": "It is a very resilient creature that lives a long life. It is not meant to be contained in small spaces like the spaceship but it tries not to kick up a fuss during rehoming.",
+      "InterSpeciesHostility": "Its calm temperament makes it friendly towards most other creatures but its survival instincts put it on edge around the Black Hole Bird and Kabouterblip."
+    },
+
     "size": 0.5,
     "origin": "Unable to track..."
   },
@@ -99,7 +140,7 @@
     "name": "Black Hole Bird",
     "description": "Black Hole Bird, known to some by its scientific name, Gravitus Corvus, has a ravenous appetite with the darkest feathers. These birds seem to eat almost everything, even light.",
     "traits": {
-      "tempUpper": 3000,
+      "tempUpper": 5000,
       "tempLower": 1000,
       "atmosphere": [],
       "radiationUpper": 1,
@@ -109,6 +150,14 @@
       "generalResilience": 1,
       "beef": [],
       "sanity": 0.10
+    },
+    "ambiguousData": {
+      "thermalTolerance": "This bird needs high temperatures of at least 1000 Kelvin or the heat around it will upset the planet's atmosphere, potentially destroying it.",
+      "respiratoryMedium": "Atmospheres have no effect on a black hole.",
+      "radiationTolerance": "Black Hole Birds belong on planets with high solar radiations or the radiation it puts off will endanger the planet.",
+      "ecologicalAffinities": "This bird can NOT be properly contained on rocky or oceanic planets.",
+      "longevityIndex": "This creature's lifespan has not been able to be measureed by humans and is mostly rehomed for the sake of others rather than it being in danger.",
+      "InterSpeciesHostility": "The Black Hole Bird is indifferent to other creatures unless its appetite is peaked (and it frequently is) making its presence quite the detrimental effect on others."
     },
     "size": 0.3,
     "origin": "Unknown"
@@ -126,16 +175,24 @@
       "biome": ["ocean", "rocky"],
       "lifeSpan": 15,
       "generalResilience": 0.86,
-      "beef": [],
+      "beef": ["Radioactive Monkey"],
       "sanity": 1
+    },
+    "ambiguousData": {
+      "thermalTolerance": "It got too big for Santa Cruz but prefers similar temperatures of around 100 to 550 degrees Kelvin.",
+      "respiratoryMedium": "Slugs need moisture to retain their protective slime layer.",
+      "radiationTolerance": "Despite its size this creature is quite sensitive and prefers low levels of radiation.",
+      "ecologicalAffinities": "These creatures are a fan of Earth's oceans and continents despite evolving to outgrow them.",
+      "longevityIndex": "These creatures have no predators, making them very chill and giving them relatively long life spans for a slug (10 years).",
+      "InterSpeciesHostility": "Banana Sluggas have no predators, making them hostile to very few creatures. Their sensitive slug nature puts them on edge around large sources of radiation like a certain monkey though."
     },
     "size": 0.85,
     "origin": "They have been found on many planets, seeming to prefer watery ones though"
   },
   {
     "id": 7,
-    "name": "Malevolent Meleagris",
-    "description": "The Malevolent Meleagris are very similar to Earth's Meleagris genus, the turkey, but the lack of Earth's nurturing atmosphere seems to have fostered an intense evil in these creatures.",
+    "name": "Kabouterblip",
+    "description": "A strange and seemingly evil gremlin creature that grows its power from the toxic fumes of gas planets but is also known to thrive well on rocky planets where it can terrorize others.",
     "traits": {
       "tempUpper": 4000,
       "tempLower": 100,
@@ -145,8 +202,16 @@
       "biome": ["gas", "rocky"],
       "lifeSpan": 100,
       "generalResilience": 0.95,
-      "beef": ["Banana Slugga the Hutt"],
+      "beef": ["Black Hole Bird"],
       "sanity": 0.35 
+    },
+    "ambiguousData": {
+      "thermalTolerance": "It can live in temperatures as low as 100 Kelvin but its fiery personality also lets it withstand fiery heats of up to 4000K.",
+      "respiratoryMedium": "It enjoys fumes as toxic as its personality.",
+      "radiationTolerance": "Its evil temperament makes it enjoy the sting of high radiation levels, helping it to grow its twisted powers.",
+      "ecologicalAffinities": "These terroritoral beasts have been known to conquer both land and air.",
+      "longevityIndex": "There is almost no getting rid of these creature as they live long lives and are quite resilient. They do not enjoy the rehoming process though, as they prefer to be free to wreak havoc.",
+      "InterSpeciesHostility": "This creature loves to be around others so it can terrorize them. The only creature it dislikes is the bird too powerful for it to subjugate."
     },
     "size": 0.35,
     "origin": "Found floating in the heavy atmosphere's of toxic gas planets, absorbing the toxins to power their dark spirit."
@@ -154,7 +219,7 @@
   {
     "id": 8,
     "name": "Rubicus Golem",
-    "description": "These rocky creatures are made from an extremely durable stony composite inlaid with sparkling gemstones. Their safe rehoming has become a humanitarian crisis as some hunt them for the gems inbedded in their bodies.",
+    "description": "These rocky creatures are made from an extremely durable stony composite inlaid with sparkling gemstones. Their safe rehoming has become a humanitarian crisis as some hunt them for the gems embedded in their bodies.",
     "traits": {
       "tempUpper": 3000,
       "tempLower": 0,
@@ -164,8 +229,16 @@
       "biome": ["gas", "rocky"],
       "lifeSpan": 10,
       "generalResilience": 0.84,
-      "beef": ["Malevolent Meleagris"],
+      "beef": ["Kabouterblip", "Black Hole Bird"],
       "sanity": 1
+    },
+    "ambiguousData": {
+      "thermalTolerance": "With their rocky skinthese creatures can survive in temperatures as low as 0 Kelvin and as high as 3000K.",
+      "respiratoryMedium": "It likes to feel mineral particles in the air around it.",
+      "radiationTolerance": "Its rocky exterior can fight off extremely high levels of radiation.",
+      "ecologicalAffinities": "These creatures are born on gas planets but do well in other terrains similar to their composition.",
+      "longevityIndex": "Tough as rock these creatures are quite resilient and are unphased by the rehoming process. Their lives err on the shorter side but they remain calm and amicable.",
+      "InterSpeciesHostility": "As the subject of much injustice at the hands of others (hunting for the gems they possess) the Rubicus Golem despises creatures who prey on others."
     },
     "size": 0.25,
     "origin": "Born on gas planets from minerals precipitating in the atmosphere."

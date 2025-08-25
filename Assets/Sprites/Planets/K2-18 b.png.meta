@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: e51f7173c471946a5b698c2970084d60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8818623138486062315
+    second: K2-18 b_0
+  - first:
+      213: 6598905354679653246
+    second: K2-18 b_1
+  - first:
+      213: -7183375134332195023
+    second: K2-18 b_2
+  - first:
+      213: -2000277306412743294
+    second: K2-18 b_3
+  - first:
+      213: -7000078073728538719
+    second: K2-18 b_4
+  - first:
+      213: -4853173350072971495
+    second: K2-18 b_5
+  - first:
+      213: -6675017236127837140
+    second: K2-18 b_6
+  - first:
+      213: 4343890222640247052
+    second: K2-18 b_7
+  - first:
+      213: -8062908016320357212
+    second: K2-18 b_8
+  - first:
+      213: 5200025691129179102
+    second: K2-18 b_9
+  - first:
+      213: 2629739093937925522
+    second: K2-18 b_10
+  - first:
+      213: 6853867557372766610
+    second: K2-18 b_11
+  - first:
+      213: 9171216159907730835
+    second: K2-18 b_12
+  - first:
+      213: -5090701319829382340
+    second: K2-18 b_13
+  - first:
+      213: 7981448030188025852
+    second: K2-18 b_14
+  - first:
+      213: 8523210433266623155
+    second: K2-18 b_15
+  - first:
+      213: -5509461553513216016
+    second: K2-18 b_16
+  - first:
+      213: -6935239602914942410
+    second: K2-18 b_17
+  - first:
+      213: -7214998918727105737
+    second: K2-18 b_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: K2-18 b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5137f768af4fd9580800000000000000
+      internalID: -8818623138486062315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e739a142575049b50800000000000000
+      internalID: 6598905354679653246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f61cddf568f4c90800000000000000
+      internalID: -7183375134332195023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2854ef243669d34e0800000000000000
+      internalID: -2000277306412743294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7e867741abade90800000000000000
+      internalID: -7000078073728538719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f02832d8016acb0800000000000000
+      internalID: -4853173350072971495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 201
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c249df280339d53a0800000000000000
+      internalID: -6675017236127837140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01b3cf7429984c30800000000000000
+      internalID: 4343890222640247052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac5396d0ebca1090800000000000000
+      internalID: -8062908016320357212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe8aea0d33a2840800000000000000
+      internalID: 5200025691129179102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da022e5c5be7420800000000000000
+      internalID: 2629739093937925522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29927c6ea34dd1f50800000000000000
+      internalID: 6853867557372766610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3955f999184b64f70800000000000000
+      internalID: 9171216159907730835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_13
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b15fd0f123a59b0800000000000000
+      internalID: -5090701319829382340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7399822bcc3ce60800000000000000
+      internalID: 7981448030188025852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_15
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2a2cc2bb6884670800000000000000
+      internalID: 8523210433266623155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_16
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f74c2f48e57a83b0800000000000000
+      internalID: -5509461553513216016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_17
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a80c535411cf90800000000000000
+      internalID: -6935239602914942410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: K2-18 b_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733817ac5bc2fdb90800000000000000
+      internalID: -7214998918727105737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      K2-18 b_0: -8818623138486062315
+      K2-18 b_1: 6598905354679653246
+      K2-18 b_10: 2629739093937925522
+      K2-18 b_11: 6853867557372766610
+      K2-18 b_12: 9171216159907730835
+      K2-18 b_13: -5090701319829382340
+      K2-18 b_14: 7981448030188025852
+      K2-18 b_15: 8523210433266623155
+      K2-18 b_16: -5509461553513216016
+      K2-18 b_17: -6935239602914942410
+      K2-18 b_18: -7214998918727105737
+      K2-18 b_2: -7183375134332195023
+      K2-18 b_3: -2000277306412743294
+      K2-18 b_4: -7000078073728538719
+      K2-18 b_5: -4853173350072971495
+      K2-18 b_6: -6675017236127837140
+      K2-18 b_7: 4343890222640247052
+      K2-18 b_8: -8062908016320357212
+      K2-18 b_9: 5200025691129179102
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

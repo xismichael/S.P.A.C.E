@@ -96,4 +96,13 @@ public class CreatureManager : MonoBehaviour
         selectedCreatureUI = null;
         SelectedCreature = null;
     }
+
+    public void UpdateCreatureUIs()
+    {
+        //print sanity points for each creature
+        foreach (CreatureUI ui in CurrentCreatures)
+        {
+            Debug.Log($"{ui.creature.name} sanity: {ui.creature.traits.sanity}");
+        }
+    }
 }

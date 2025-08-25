@@ -12,13 +12,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlanetManager planetManager;
     [SerializeField] private CreatureManager creatureManager;
 
-    [SerializeField] private GameObject gameOverPanel;
-
     [SerializeField] private TextMeshProUGUI TimerText;
-    [SerializeField] private TextMeshProUGUI FinalScoreText;
+
+    [SerializeField] private ReportCard reportCard;
 
     private int matchesMade = 0;
     private float totalScore = 0;
+
+    private bool tenSecondsPassed = false;
 
 
     void Awake()
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         // float rating = RatingSystem.GetCreaturePlanetRating(testCreature, testPlanet);
         // Debug.Log($"Rating for {testCreature.name} on {testPlanet.name}: {rating}");
 
-        FinalScoreText.text = "";
+        //FinalScoreText.text = "";
         matchesMade = 0;
         totalScore = 0;
         StartGame();
@@ -78,8 +79,22 @@ public class GameManager : MonoBehaviour
     {
         // Update your UI here
         //Debug.Log($"Time remaining: {remaining:F1} seconds");
-            int total = Mathf.Max(0, Mathf.FloorToInt(remaining));
-            TimerText.text = $"{total/60}:{total % 60:00}";
+        int total = Mathf.Max(0, Mathf.FloorToInt(remaining));
+        TimerText.text = $"{total / 60}:{total % 60:00}";
+
+        //run every 10 seconds
+        if (!tenSecondsPassed && total % 10 == 0)
+        {
+            creatureManager.creatures = RatingSystem.updateSanity(creatureManager.creatures);
+            creatureManager.UpdateCreatureUIs();
+            tenSecondsPassed = true;
+        }
+
+        if (total % 10 != 0)
+        {
+            tenSecondsPassed = false;
+        }
+
     }
 
     //function that is called when the timer completes
@@ -98,7 +113,8 @@ public class GameManager : MonoBehaviour
     private void EndGame(GameEndReason reason)
     {
         Debug.Log($"Game ended because: {reason}");
-        gameOverPanel.SetActive(true);
+        reportCard.ShowScore(totalScore / Mathf.Max(1, matchesMade));
+        reportCard.Show();
         //Update UI results
     }
 
@@ -106,17 +122,15 @@ public class GameManager : MonoBehaviour
     {
         // If all matches are made, stop timer and end game
 
-
-        Debug.Log(creatureManager.SelectedCreature.name + " has been sent to " + planetManager.SelectedPlanet.name);
         float score = RatingSystem.GetCreaturePlanetRating(creatureManager.SelectedCreature, planetManager.SelectedPlanet);
         totalScore += score;
         matchesMade++;
-        FinalScoreText.text += $"{creatureManager.SelectedCreature.name} has been sent to {planetManager.SelectedPlanet.name} with a score of {score}\n";
+        reportCard.MatchMade($"{creatureManager.SelectedCreature.name} has been sent to {planetManager.SelectedPlanet.name} with a score of {score}");
         planetManager.DeleteSelectedPlanet();
         creatureManager.DeleteSelectedCreature();
         if (AllMatchesComplete())
         {
-            FinalScoreText.text += $"\n your final scsore is: {totalScore/matchesMade}";
+            //FinalScoreText.text += $"\n your final scsore is: {totalScore/matchesMade}";
             timer.StopTimer();
             EndGame(GameEndReason.AllMatched);
         }

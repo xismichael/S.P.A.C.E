@@ -12,11 +12,13 @@ public class PlanetUI : MonoBehaviour
 
     public PlanetManager planetManager;
     public Button button;
+    public Animator PlanetAnimator;
 
     void Start()
     {
         button = GetComponent<Button>();
         button.onClick.AddListener(OnClick);
+        PlanetAnimator.Play(planet.name);
     }
 
     // Update is called once per frame

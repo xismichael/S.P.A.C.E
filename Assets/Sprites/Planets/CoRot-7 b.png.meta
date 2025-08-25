@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: c282e7d7619a74771987a2cd2899205b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8034615797373431979
+    second: CoRot-7 b_0
+  - first:
+      213: -8760332612410103276
+    second: CoRot-7 b_1
+  - first:
+      213: 3542131881276232550
+    second: CoRot-7 b_2
+  - first:
+      213: -3171974388825117915
+    second: CoRot-7 b_3
+  - first:
+      213: -5694751265940252472
+    second: CoRot-7 b_4
+  - first:
+      213: -4732918760263709169
+    second: CoRot-7 b_5
+  - first:
+      213: 884995854441096916
+    second: CoRot-7 b_6
+  - first:
+      213: 7292269517911163288
+    second: CoRot-7 b_7
+  - first:
+      213: 4425451004557795086
+    second: CoRot-7 b_8
+  - first:
+      213: -8988834394503230250
+    second: CoRot-7 b_9
+  - first:
+      213: 4205720652983524154
+    second: CoRot-7 b_10
+  - first:
+      213: 4114256082855844595
+    second: CoRot-7 b_11
+  - first:
+      213: 6853434042274768804
+    second: CoRot-7 b_12
+  - first:
+      213: 7781845911479240363
+    second: CoRot-7 b_13
+  - first:
+      213: 7879098851091695968
+    second: CoRot-7 b_14
+  - first:
+      213: 3181166867654879957
+    second: CoRot-7 b_15
+  - first:
+      213: -7617100684774032247
+    second: CoRot-7 b_16
+  - first:
+      213: 4477708582827135348
+    second: CoRot-7 b_17
+  - first:
+      213: 2610047114600445082
+    second: CoRot-7 b_18
+  - first:
+      213: -5092768862907818352
+    second: CoRot-7 b_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoRot-7 b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f80d2608f4f7090800000000000000
+      internalID: -8034615797373431979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41aa60b37eb0d6680800000000000000
+      internalID: -8760332612410103276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6635e03dd2e282130800000000000000
+      internalID: 3542131881276232550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b21756912eaf3d0800000000000000
+      internalID: -3171974388825117915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8dc6d45ed28f0b0800000000000000
+      internalID: -5694751265940252472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e03bfa67b415eb0800000000000000
+      internalID: -4732918760263709169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6a7ab6a03284c00800000000000000
+      internalID: 884995854441096916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891018d8d78533560800000000000000
+      internalID: 7292269517911163288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f1099dd3c5a6d30800000000000000
+      internalID: 4425451004557795086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc42da3ebe314380800000000000000
+      internalID: -8988834394503230250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b5b99a6a8bd5a30800000000000000
+      internalID: 4205720652983524154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fadc9deb16c81930800000000000000
+      internalID: 4114256082855844595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a76b5d43f94c1f50800000000000000
+      internalID: 6853434042274768804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6cb8260abaefb60800000000000000
+      internalID: 7781845911479240363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0694289e8ae285d60800000000000000
+      internalID: 7879098851091695968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5daafcd5966c52c20800000000000000
+      internalID: 3181166867654879957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb8a9c84f9a4690800000000000000
+      internalID: -7617100684774032247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471112f6b34042e30800000000000000
+      internalID: 4477708582827135348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94fac8a500c83420800000000000000
+      internalID: 2610047114600445082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoRot-7 b_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e953ba3b9d259b0800000000000000
+      internalID: -5092768862907818352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CoRot-7 b_0: -8034615797373431979
+      CoRot-7 b_1: -8760332612410103276
+      CoRot-7 b_10: 4205720652983524154
+      CoRot-7 b_11: 4114256082855844595
+      CoRot-7 b_12: 6853434042274768804
+      CoRot-7 b_13: 7781845911479240363
+      CoRot-7 b_14: 7879098851091695968
+      CoRot-7 b_15: 3181166867654879957
+      CoRot-7 b_16: -7617100684774032247
+      CoRot-7 b_17: 4477708582827135348
+      CoRot-7 b_18: 2610047114600445082
+      CoRot-7 b_19: -5092768862907818352
+      CoRot-7 b_2: 3542131881276232550
+      CoRot-7 b_3: -3171974388825117915
+      CoRot-7 b_4: -5694751265940252472
+      CoRot-7 b_5: -4732918760263709169
+      CoRot-7 b_6: 884995854441096916
+      CoRot-7 b_7: 7292269517911163288
+      CoRot-7 b_8: 4425451004557795086
+      CoRot-7 b_9: -8988834394503230250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

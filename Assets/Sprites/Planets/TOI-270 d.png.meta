@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: ecdbd1481fc0643b6b3cd9a58337aee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7871915839648610150
+    second: TOI-270 d_0
+  - first:
+      213: 8526860487054786183
+    second: TOI-270 d_1
+  - first:
+      213: -8905610396783781808
+    second: TOI-270 d_2
+  - first:
+      213: -9205256778301480642
+    second: TOI-270 d_3
+  - first:
+      213: 5559481125850565614
+    second: TOI-270 d_4
+  - first:
+      213: -3247650724434549413
+    second: TOI-270 d_5
+  - first:
+      213: 1437341232306305673
+    second: TOI-270 d_6
+  - first:
+      213: 9060102970155396913
+    second: TOI-270 d_7
+  - first:
+      213: -2904915492519244415
+    second: TOI-270 d_8
+  - first:
+      213: -3930058988879656577
+    second: TOI-270 d_9
+  - first:
+      213: -4776735902703410061
+    second: TOI-270 d_10
+  - first:
+      213: -6736083668382218018
+    second: TOI-270 d_11
+  - first:
+      213: -847157705532188040
+    second: TOI-270 d_12
+  - first:
+      213: -3080485750662171581
+    second: TOI-270 d_13
+  - first:
+      213: 4281055226814337870
+    second: TOI-270 d_14
+  - first:
+      213: 8005778266008016954
+    second: TOI-270 d_15
+  - first:
+      213: 2696302188083794549
+    second: TOI-270 d_16
+  - first:
+      213: -4951982416602218512
+    second: TOI-270 d_17
+  - first:
+      213: -3546532307103689779
+    second: TOI-270 d_18
+  - first:
+      213: -2230617000768371220
+    second: TOI-270 d_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TOI-270 d_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667b60cbfb9ae3d60800000000000000
+      internalID: 7871915839648610150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ef63c8f6e755670800000000000000
+      internalID: 8526860487054786183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0585daf278ae86480800000000000000
+      internalID: -8905610396783781808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31651f4bbb504080800000000000000
+      internalID: -9205256778301480642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebcfc9e0ae372d40800000000000000
+      internalID: 5559481125850565614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55e9877fd60ee2d0800000000000000
+      internalID: -3247650724434549413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ab3a44c3672f310800000000000000
+      internalID: 1437341232306305673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fe29c16a3fbbd70800000000000000
+      internalID: 9060102970155396913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d8cdd10caafa7d0800000000000000
+      internalID: -2904915492519244415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_9
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f794f750c20a579c0800000000000000
+      internalID: -3930058988879656577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37422853100a5bdb0800000000000000
+      internalID: -4776735902703410061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_11
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed884c8c79f9482a0800000000000000
+      internalID: -6736083668382218018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_12
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ad4052e8a4e34f0800000000000000
+      internalID: -847157705532188040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_13
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f028e78aef35d0800000000000000
+      internalID: -3080485750662171581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_14
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43191afb0d596b30800000000000000
+      internalID: 4281055226814337870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_15
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3853ff9aec3a1f60800000000000000
+      internalID: 8005778266008016954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_16
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572d7dfed803b6520800000000000000
+      internalID: 2696302188083794549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_17
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffb1749a36074bb0800000000000000
+      internalID: -4951982416602218512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_18
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc353a238af28cec0800000000000000
+      internalID: -3546532307103689779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOI-270 d_19
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce50147f7a14b01e0800000000000000
+      internalID: -2230617000768371220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TOI-270 d_0: 7871915839648610150
+      TOI-270 d_1: 8526860487054786183
+      TOI-270 d_10: -4776735902703410061
+      TOI-270 d_11: -6736083668382218018
+      TOI-270 d_12: -847157705532188040
+      TOI-270 d_13: -3080485750662171581
+      TOI-270 d_14: 4281055226814337870
+      TOI-270 d_15: 8005778266008016954
+      TOI-270 d_16: 2696302188083794549
+      TOI-270 d_17: -4951982416602218512
+      TOI-270 d_18: -3546532307103689779
+      TOI-270 d_19: -2230617000768371220
+      TOI-270 d_2: -8905610396783781808
+      TOI-270 d_3: -9205256778301480642
+      TOI-270 d_4: 5559481125850565614
+      TOI-270 d_5: -3247650724434549413
+      TOI-270 d_6: 1437341232306305673
+      TOI-270 d_7: 9060102970155396913
+      TOI-270 d_8: -2904915492519244415
+      TOI-270 d_9: -3930058988879656577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
