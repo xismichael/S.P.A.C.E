@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 539d24c54ec4a417e9751a924d8850ad
+guid: 423bc2a1d5c274e04bc04a4ec6660fc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7906691346972173498
-    second: sendButton_0
+      213: 1819925146159588499
+    second: SpaceHelmet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sendButton_0
+      name: SpaceHelmet_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 51
-        width: 48
-        height: 47
+        x: 0
+        y: 0
+        width: 1864
+        height: 1370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64b91138c1ac54290800000000000000
-      internalID: -7906691346972173498
+      spriteID: 394a4ae274ca14910800000000000000
+      internalID: 1819925146159588499
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sendButton_0: -7906691346972173498
+      SpaceHelmet_0: 1819925146159588499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

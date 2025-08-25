@@ -34,8 +34,11 @@ public class CreatureUI : MonoBehaviour
     public void OnClick()
     {
         // Handle click events on the creature UI
-        creatureInfoView.Open(creature);
+        //creatureInfoView.Open(creature);
         creatureManager.SetCreatureUI(this);
+        
+
+        gameObject.SetActive(false);
 
     }
 }

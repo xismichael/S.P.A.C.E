@@ -38,7 +38,7 @@ public class PlanetUI : MonoBehaviour
     {
         // planet Desscription Pop Up
 
-        planetinfoview.Open(planet);
+        //planetinfoview.Open(planet);
         planetManager.SetPlanetUI(this);
         
     }

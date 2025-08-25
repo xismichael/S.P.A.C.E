@@ -11,6 +11,7 @@ public class CreatureManager : MonoBehaviour
     [SerializeField] private CreatureInfoView creatureInfoView;
     [SerializeField] private GameObject creaturePrefab;
     [SerializeField] private Image SelectedCreatureImage;
+    [SerializeField] private Sprite defaultCreatureSprite;
     public CreatureUI selectedCreatureUI = null;
     public Creature SelectedCreature = null;
 
@@ -65,6 +66,8 @@ public class CreatureManager : MonoBehaviour
             CurrentCreatures.Add(ui);
         }
 
+        GameManager.Instance.BuildSanityDictionary();
+
 
     }
 
@@ -76,9 +79,15 @@ public class CreatureManager : MonoBehaviour
 
     public void SetCreatureUI(CreatureUI creatureUI)
     {
+        if (selectedCreatureUI != null)
+        {
+            selectedCreatureUI.gameObject.SetActive(true);
+            selectedCreatureUI.CreatureAnimator.Play(selectedCreatureUI.creature.name);
+        }
         selectedCreatureUI = creatureUI;
         SelectedCreature = creatureUI.creature;
         SelectedCreatureImage.sprite = creatureUI.creatureImage.sprite;
+        creatureInfoView.UpdateInfoView(SelectedCreature);
     }
 
     public void DeleteSelectedCreature()
@@ -95,6 +104,7 @@ public class CreatureManager : MonoBehaviour
         // clear selection
         selectedCreatureUI = null;
         SelectedCreature = null;
+        SelectedCreatureImage.sprite = defaultCreatureSprite;
     }
 
     public void UpdateCreatureUIs()
@@ -104,5 +114,11 @@ public class CreatureManager : MonoBehaviour
         {
             Debug.Log($"{ui.creature.name} sanity: {ui.creature.traits.sanity}");
         }
+    }
+
+    public void ShowInfo()
+    {
+        if (selectedCreatureUI == null) return;
+        creatureInfoView.Open(SelectedCreature);
     }
 }

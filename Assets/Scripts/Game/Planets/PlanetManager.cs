@@ -8,8 +8,9 @@ public class PlanetManager : MonoBehaviour
     [SerializeField] private PlanetInfoView planetInfoView;
     [SerializeField] private GameObject planet_prefab;
     [SerializeField] private Image SelectedPlanetImage;
-    public  PlanetUI selectedPlanetUI = null;
-    public  Planet SelectedPlanet = null;
+    [SerializeField] private Sprite defaultCreatureSprite;
+    public PlanetUI selectedPlanetUI = null;
+    public Planet SelectedPlanet = null;
 
     public int PlanetCount = 5;
     public List<PlanetUI> CurrentPlanets = new();
@@ -74,40 +75,47 @@ public class PlanetManager : MonoBehaviour
         selectedPlanetUI = planetUI;
         SelectedPlanet = planetUI.planet;
         SelectedPlanetImage.sprite = planetUI.planetImage.sprite;
+        planetInfoView.UpdateInfoView(SelectedPlanet);
     }
 
     public void DeleteSelectedPlanet()
-{
+    {
 
-    // remove from tracking lists
-    CurrentPlanets.Remove(selectedPlanetUI);
-    planets.Remove(SelectedPlanet);
-    SelectedPlanetImage.sprite = null;
+        // remove from tracking lists
+        CurrentPlanets.Remove(selectedPlanetUI);
+        planets.Remove(SelectedPlanet);
+        SelectedPlanetImage.sprite = null;
 
-    // destroy the UI object
-    Destroy(selectedPlanetUI.gameObject);
+        // destroy the UI object
+        Destroy(selectedPlanetUI.gameObject);
 
-    // clear selection
-    selectedPlanetUI = null;
-    SelectedPlanet = null;
+        // clear selection
+        selectedPlanetUI = null;
+        SelectedPlanet = null;
+        SelectedPlanetImage.sprite = defaultCreatureSprite;
+    }
+
+    public void ShowInfo()
+    {
+        if (selectedPlanetUI == null) return;
+        planetInfoView.Open(SelectedPlanet);
+    }
+
 }
 
 
-}
 
 
+// void CreatePlanets()
+// {
+//     planet_values = PlanetDatabase.Instance.GetAllPlanets();
 
+//     foreach (var planet_value in planet_values)
+//     {
+//         GameObject planet = Instantiate(planet_prefab, new Vector3(0, 0, 0), Quaternion.identity);
+//         planet.GetComponent<PlanetUI>().planetinfoview = GameObject.Find("PlanetInfoView");
+//         planets.Add(planet);
 
-    // void CreatePlanets()
-    // {
-    //     planet_values = PlanetDatabase.Instance.GetAllPlanets();
-
-    //     foreach (var planet_value in planet_values)
-    //     {
-    //         GameObject planet = Instantiate(planet_prefab, new Vector3(0, 0, 0), Quaternion.identity);
-    //         planet.GetComponent<PlanetUI>().planetinfoview = GameObject.Find("PlanetInfoView");
-    //         planets.Add(planet);
-
-    //     }
-    // }
+//     }
+// }
 

@@ -34,6 +34,21 @@ public class CreatureInfoView : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void UpdateInfoView(Creature creature)
+    {
+        //check if the gameobject is active
+        if (!gameObject.activeSelf) return;
+
+        description.text = creature.description;
+        thermalTolerance.text = creature.ambiguousData.thermalTolerance;
+        respiratoryMedium.text = creature.ambiguousData.respiratoryMedium;
+        radiationTolerance.text = creature.ambiguousData.radiationTolerance;
+        ecologicalAffinities.text = creature.ambiguousData.ecologicalAffinities;
+        longevityIndex.text = creature.ambiguousData.longevityIndex;
+        InterSpeciesHostility.text = creature.ambiguousData.InterSpeciesHostility;
+        creatureAnimator.Play(creature.name);
+    }
+
     public void Open(Creature creature)
     {
 

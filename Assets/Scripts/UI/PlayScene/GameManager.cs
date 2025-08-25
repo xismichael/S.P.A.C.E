@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI TimerText;
 
     [SerializeField] private ReportCard reportCard;
+
+    [SerializeField] private TextMeshProUGUI ThoughtBubbleText;
+
+    private Dictionary<string, float> StartingSanity = new Dictionary<string, float>();
 
     private int matchesMade = 0;
     private float totalScore = 0;
@@ -83,14 +88,15 @@ public class GameManager : MonoBehaviour
         TimerText.text = $"{total / 60}:{total % 60:00}";
 
         //run every 10 seconds
-        if (!tenSecondsPassed && total % 10 == 0)
+        if (!tenSecondsPassed && total % 30 == 0)
         {
             creatureManager.creatures = RatingSystem.updateSanity(creatureManager.creatures);
             creatureManager.UpdateCreatureUIs();
+            UpdateThoughtBubble();
             tenSecondsPassed = true;
         }
 
-        if (total % 10 != 0)
+        if (total % 30 != 0)
         {
             tenSecondsPassed = false;
         }
@@ -107,12 +113,23 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         // Reset game and set time
-        timer.StartTimer(300f);
+        timer.StartTimer(600f);
         planetManager.startGame();
     }
     private void EndGame(GameEndReason reason)
     {
-        Debug.Log($"Game ended because: {reason}");
+
+        if (reason == GameEndReason.TimeUp)
+        {
+            foreach (Creature creature in creatureManager.creatures)
+            {
+                matchesMade++; 
+                reportCard.MatchMade($"{creature.name}: {0}");
+            }
+        }
+
+
+
         reportCard.ShowScore(totalScore / Mathf.Max(1, matchesMade));
         reportCard.Show();
         //Update UI results
@@ -123,9 +140,15 @@ public class GameManager : MonoBehaviour
         // If all matches are made, stop timer and end game
 
         float score = RatingSystem.GetCreaturePlanetRating(creatureManager.SelectedCreature, planetManager.SelectedPlanet);
+        float startingSanity = StartingSanity[creatureManager.SelectedCreature.name];
+        float currentSanity = creatureManager.SelectedCreature.traits.sanity;
+
+        score = score * currentSanity / startingSanity;
+
+
         totalScore += score;
         matchesMade++;
-        reportCard.MatchMade($"{creatureManager.SelectedCreature.name} has been sent to {planetManager.SelectedPlanet.name} with a score of {score}");
+        reportCard.MatchMade($"{creatureManager.SelectedCreature.name}: {score}");
         planetManager.DeleteSelectedPlanet();
         creatureManager.DeleteSelectedCreature();
         if (AllMatchesComplete())
@@ -161,6 +184,48 @@ public class GameManager : MonoBehaviour
         OnMatchMade();
 
 
+    }
+
+    public void UpdateThoughtBubble()
+    {
+        string sb = "";
+
+        foreach (Creature creature in creatureManager.creatures)
+        {
+
+            float startingSanity = StartingSanity[creature.name];
+            float currentSanity = creature.traits.sanity;
+
+            float ratio = currentSanity / startingSanity;
+            Debug.Log($"Creature: {creature.name}, Ratio: {ratio}");
+
+            string status;
+            if (ratio >= 0.95f) status = "Ecstatic";
+            else if (ratio >= 0.90f) status = "Happy";
+            else if (ratio >= 0.85f) status = "Content";
+            else if (ratio >= 0.80f) status = "Uneasy";
+            else if (ratio >= 0.75f) status = "Irritated";
+            else if (ratio >= 0.70f) status = "Unhappy";
+            else if (ratio >= 0.65f) status = "Angry";
+            else status = "Mad";
+
+            sb += $"{creature.name}: {status}\n";
+        }
+
+        ThoughtBubbleText.text = sb;
+    }
+
+
+    public void BuildSanityDictionary()
+    {
+        Dictionary<string, float> sanityDict = new Dictionary<string, float>();
+
+        foreach (Creature creature in creatureManager.creatures)
+        {
+            sanityDict[creature.name] = creature.traits.sanity;
+            Debug.Log($"Starting sanity for {creature.name}: {creature.traits.sanity}");
+        }
+        StartingSanity = sanityDict;
     }
 
 }
