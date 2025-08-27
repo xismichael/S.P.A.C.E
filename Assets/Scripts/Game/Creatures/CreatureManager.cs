@@ -22,11 +22,11 @@ public class CreatureManager : MonoBehaviour
     [SerializeField]
     private List<Vector2> creaturePositions = new()
     {
-        new Vector2(-450, -400),
+        new Vector2(-400, -300),
         new Vector2(-250, -350),
-        new Vector2(-100, -400),
+        new Vector2(-100, -300),
         new Vector2(100, -350),
-        new Vector2(300, -400)
+        new Vector2(400, -300)
     };
 
 

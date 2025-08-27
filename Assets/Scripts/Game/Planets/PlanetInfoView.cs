@@ -112,11 +112,11 @@ public class PlanetInfoView : MonoBehaviour
             {
                 if (planet.conditions.tempLower == planet.conditions.tempUpper)
                 {
-                    tempRange.text = $"around {planet.conditions.tempLower}°C";
+                    tempRange.text = $"around {planet.conditions.tempLower}°K";
                 }
                 else
                 {
-                    tempRange.text = $"{planet.conditions.tempLower}°C to {planet.conditions.tempUpper}°C";
+                    tempRange.text = $"{planet.conditions.tempLower}°K to {planet.conditions.tempUpper}°K";
                 }
             }
             else tempRange.text = "Data Unavailable";

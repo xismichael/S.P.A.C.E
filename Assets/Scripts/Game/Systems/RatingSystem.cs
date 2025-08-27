@@ -11,8 +11,8 @@ public static class RatingSystem
     private const float RAD_GAMMA = 2.0f; // Nonlinear: punishes large miss much more
 
     private const float ATMOS_BONUS_MAX = 20f;   // Pure bonus
-    private const float LIFE_BONUS_MAX = 20f;   // Pure bonus
-    private const float HZ_BONUS_MAX = 10f;   // Tiny nudge bonus
+    private const float LIFE_BONUS_MAX = 10f;   // Pure bonus
+    private const float HZ_BONUS_MAX = 5f;   // Tiny nudge bonus
 
     /// <summary>
     /// Calculates the final match rating between a creature and a planet.
