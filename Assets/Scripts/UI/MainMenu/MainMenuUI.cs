@@ -3,21 +3,27 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour
 {
+
+    public GameObject creditsPanel;
     void Start()
     {
         // Initialize any necessary components or settings
-        Debug.Log("Main Menu Initialized");
     }
     public void OnPlayButton()
     {
         //load the play scene
-        Debug.Log("Play button clicked");
         SceneManager.LoadScene("PlayScreen");
     }
 
     public void OnCreditButton()
     {
         //load credit scene
-        Debug.Log("Credits button clicked");
+        creditsPanel.SetActive(true);
+    }
+
+    public void OnCreditExitButton()
+    {
+        //exit the game
+        creditsPanel.SetActive(false);
     }
 }
