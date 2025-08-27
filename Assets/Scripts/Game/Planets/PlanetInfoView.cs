@@ -14,6 +14,7 @@ public class PlanetInfoView : MonoBehaviour
     public TextMeshProUGUI distanceFromStar;
     public TextMeshProUGUI habitableZone;
     public Animator planetAnimator;
+    public GameObject disclosureScreen;
 
     void Start()
     {
@@ -58,11 +59,11 @@ public class PlanetInfoView : MonoBehaviour
             {
                 if (planet.conditions.tempLower == planet.conditions.tempUpper)
                 {
-                    tempRange.text = $"around {planet.conditions.tempLower}°C";
+                    tempRange.text = $"around {planet.conditions.tempLower}°K";
                 }
                 else
                 {
-                    tempRange.text = $"{planet.conditions.tempLower}°C to {planet.conditions.tempUpper}°C";
+                    tempRange.text = $"{planet.conditions.tempLower}°K to {planet.conditions.tempUpper}°K";
                 }
             }
             else tempRange.text = "Data Unavailable";
@@ -134,6 +135,16 @@ public class PlanetInfoView : MonoBehaviour
         planetAnimator.Play(planet.name);
 
 
+    }
+
+    public void OnDisclosureButton()
+    {
+        disclosureScreen.SetActive(true);
+    }
+
+    public void OnCloseDisclosure()
+    {
+        disclosureScreen.SetActive(false);
     }
 
 

@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: d286a0fb812b5458ca4f92852dfc2845
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2467396048475013448
+    second: CoolPlanet1_0
+  - first:
+      213: -966330754125370166
+    second: CoolPlanet1_1
+  - first:
+      213: 5749769570803361725
+    second: CoolPlanet1_2
+  - first:
+      213: -4730564429507958017
+    second: CoolPlanet1_3
+  - first:
+      213: -1918673558015706918
+    second: CoolPlanet1_4
+  - first:
+      213: 2320969024739495073
+    second: CoolPlanet1_5
+  - first:
+      213: -5186728737906642376
+    second: CoolPlanet1_6
+  - first:
+      213: -2162870059855827718
+    second: CoolPlanet1_7
+  - first:
+      213: 7763423380898547288
+    second: CoolPlanet1_8
+  - first:
+      213: 1575806304894440677
+    second: CoolPlanet1_9
+  - first:
+      213: -8766061391602041913
+    second: CoolPlanet1_10
+  - first:
+      213: 1746993333926005539
+    second: CoolPlanet1_11
+  - first:
+      213: -1609865112901757650
+    second: CoolPlanet1_12
+  - first:
+      213: 3337788403292494535
+    second: CoolPlanet1_13
+  - first:
+      213: -9025765535002590543
+    second: CoolPlanet1_14
+  - first:
+      213: -9219553387517199497
+    second: CoolPlanet1_15
+  - first:
+      213: -2582680715365771445
+    second: CoolPlanet1_16
+  - first:
+      213: 4588146348328747829
+    second: CoolPlanet1_17
+  - first:
+      213: -1432214449691262108
+    second: CoolPlanet1_18
+  - first:
+      213: 5394239355188525237
+    second: CoolPlanet1_19
+  - first:
+      213: -7799431073235357246
+    second: CoolPlanet1_20
+  - first:
+      213: -7310303662827105136
+    second: CoolPlanet1_21
+  - first:
+      213: 9186338651123793959
+    second: CoolPlanet1_22
+  - first:
+      213: 2329819828746952996
+    second: CoolPlanet1_23
+  - first:
+      213: 6487627128443301446
+    second: CoolPlanet1_24
+  - first:
+      213: 3489571033536075267
+    second: CoolPlanet1_25
+  - first:
+      213: 7118723789626235739
+    second: CoolPlanet1_26
+  - first:
+      213: 3409134997104296051
+    second: CoolPlanet1_27
+  - first:
+      213: -2178791358983120920
+    second: CoolPlanet1_28
+  - first:
+      213: -6115743208710650269
+    second: CoolPlanet1_29
+  - first:
+      213: -3826654480584377186
+    second: CoolPlanet1_30
+  - first:
+      213: -8365221934106254111
+    second: CoolPlanet1_31
+  - first:
+      213: 1717861330654082070
+    second: CoolPlanet1_32
+  - first:
+      213: 2395244817819399544
+    second: CoolPlanet1_33
+  - first:
+      213: 7448989624752362188
+    second: CoolPlanet1_34
+  - first:
+      213: -509725066644057738
+    second: CoolPlanet1_35
+  - first:
+      213: -920549371655458604
+    second: CoolPlanet1_36
+  - first:
+      213: 8563059546528406888
+    second: CoolPlanet1_37
+  - first:
+      213: -1510760543265721191
+    second: CoolPlanet1_38
+  - first:
+      213: -6774038573020375819
+    second: CoolPlanet1_39
+  - first:
+      213: -2744599308370098659
+    second: CoolPlanet1_40
+  - first:
+      213: 2851116119323440953
+    second: CoolPlanet1_41
+  - first:
+      213: -1803626917020406896
+    second: CoolPlanet1_42
+  - first:
+      213: -4350671778062249563
+    second: CoolPlanet1_43
+  - first:
+      213: 2487185010777103012
+    second: CoolPlanet1_44
+  - first:
+      213: -2715390559937403787
+    second: CoolPlanet1_45
+  - first:
+      213: -2360727057813656559
+    second: CoolPlanet1_46
+  - first:
+      213: -5265682608067976640
+    second: CoolPlanet1_47
+  - first:
+      213: -7289818146875273958
+    second: CoolPlanet1_48
+  - first:
+      213: 1819224017857723966
+    second: CoolPlanet1_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoolPlanet1_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8414e8d12a3fd3220800000000000000
+      internalID: 2467396048475013448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc62d88c47e692f0800000000000000
+      internalID: -966330754125370166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7a51806f84bcf40800000000000000
+      internalID: 5749769570803361725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa641807b8a95eb0800000000000000
+      internalID: -4730564429507958017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 99
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8f98680908f55e0800000000000000
+      internalID: -1918673558015706918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_5
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac484ee70db53020800000000000000
+      internalID: 2320969024739495073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_6
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832b3ce71b90508b0800000000000000
+      internalID: -5186728737906642376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_7
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc27f2d321fbf1e0800000000000000
+      internalID: -2162870059855827718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_8
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8568b6bbe683dbb60800000000000000
+      internalID: 7763423380898547288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_9
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4dd0e3c736ed510800000000000000
+      internalID: 1575806304894440677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_10
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb3b42eb91b85680800000000000000
+      internalID: -8766061391602041913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_11
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b82a56e219e3810800000000000000
+      internalID: 1746993333926005539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_12
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255231953c98a9e0800000000000000
+      internalID: -1609865112901757650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_13
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cadaa15ed4325e20800000000000000
+      internalID: 3337788403292494535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_14
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b20534011a0eb280800000000000000
+      internalID: -9025765535002590543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_15
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bb9459a019d0080800000000000000
+      internalID: -9219553387517199497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_16
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b471f50b299782cd0800000000000000
+      internalID: -2582680715365771445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_17
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 99
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53304a57bce5caf30800000000000000
+      internalID: 4588146348328747829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_18
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46388f3db80cf1ce0800000000000000
+      internalID: -1432214449691262108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_19
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8b1771d103cda40800000000000000
+      internalID: 5394239355188525237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_20
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1b9a513cad2c390800000000000000
+      internalID: -7799431073235357246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_21
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09414f0ec859c8a90800000000000000
+      internalID: -7310303662827105136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_22
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720cca6f45e6c7f70800000000000000
+      internalID: 9186338651123793959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_23
+      rect:
+        serializedVersion: 2
+        x: 4699
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421af135ace255020800000000000000
+      internalID: 2329819828746952996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_24
+      rect:
+        serializedVersion: 2
+        x: 4899
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64eec0a108ea80a50800000000000000
+      internalID: 6487627128443301446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_25
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061960dd527d6030800000000000000
+      internalID: 3489571033536075267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_26
+      rect:
+        serializedVersion: 2
+        x: 5299
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b5bcee199cac260800000000000000
+      internalID: 7118723789626235739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_27
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37001cda73eaf4f20800000000000000
+      internalID: 3409134997104296051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_28
+      rect:
+        serializedVersion: 2
+        x: 5699
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7de108dc063c1e0800000000000000
+      internalID: -2178791358983120920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_29
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3664b4b44f3802ba0800000000000000
+      internalID: -6115743208710650269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_30
+      rect:
+        serializedVersion: 2
+        x: 6099
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c7c9e360ef4eac0800000000000000
+      internalID: -3826654480584377186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_31
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e46a46c8f2c8eb80800000000000000
+      internalID: -8365221934106254111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_32
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614340357c117d710800000000000000
+      internalID: 1717861330654082070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_33
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8757834a87e9d3120800000000000000
+      internalID: 2395244817819399544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_34
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc25fe6e890206760800000000000000
+      internalID: 7448989624752362188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_35
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6719195a0c71de8f0800000000000000
+      internalID: -509725066644057738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_36
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d07448493d8933f0800000000000000
+      internalID: -920549371655458604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_37
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86dd75dd94916d670800000000000000
+      internalID: 8563059546528406888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_38
+      rect:
+        serializedVersion: 2
+        x: 7699
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99478fd4a43b80be0800000000000000
+      internalID: -1510760543265721191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_39
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f49358eec7cdf1a0800000000000000
+      internalID: -6774038573020375819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_40
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1641d5787939e9d0800000000000000
+      internalID: -2744599308370098659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_41
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937f9a13103319720800000000000000
+      internalID: 2851116119323440953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_42
+      rect:
+        serializedVersion: 2
+        x: 8500
+        y: 99
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b6aafffda38f6e0800000000000000
+      internalID: -1803626917020406896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_43
+      rect:
+        serializedVersion: 2
+        x: 8699
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a15846911f4f93c0800000000000000
+      internalID: -4350671778062249563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_44
+      rect:
+        serializedVersion: 2
+        x: 8899
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa9b02f691448220800000000000000
+      internalID: 2487185010777103012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_45
+      rect:
+        serializedVersion: 2
+        x: 9099
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5746b782caef05ad0800000000000000
+      internalID: -2715390559937403787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_46
+      rect:
+        serializedVersion: 2
+        x: 9299
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c2d53af330d3fd0800000000000000
+      internalID: -2360727057813656559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_47
+      rect:
+        serializedVersion: 2
+        x: 9499
+        y: 99
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e72611998ce6b0800000000000000
+      internalID: -5265682608067976640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_48
+      rect:
+        serializedVersion: 2
+        x: 9699
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d8d4eb40d55da90800000000000000
+      internalID: -7289818146875273958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoolPlanet1_49
+      rect:
+        serializedVersion: 2
+        x: 9899
+        y: 99
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eb4470b9e2f3910800000000000000
+      internalID: 1819224017857723966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CoolPlanet1_0: 2467396048475013448
+      CoolPlanet1_1: -966330754125370166
+      CoolPlanet1_10: -8766061391602041913
+      CoolPlanet1_11: 1746993333926005539
+      CoolPlanet1_12: -1609865112901757650
+      CoolPlanet1_13: 3337788403292494535
+      CoolPlanet1_14: -9025765535002590543
+      CoolPlanet1_15: -9219553387517199497
+      CoolPlanet1_16: -2582680715365771445
+      CoolPlanet1_17: 4588146348328747829
+      CoolPlanet1_18: -1432214449691262108
+      CoolPlanet1_19: 5394239355188525237
+      CoolPlanet1_2: 5749769570803361725
+      CoolPlanet1_20: -7799431073235357246
+      CoolPlanet1_21: -7310303662827105136
+      CoolPlanet1_22: 9186338651123793959
+      CoolPlanet1_23: 2329819828746952996
+      CoolPlanet1_24: 6487627128443301446
+      CoolPlanet1_25: 3489571033536075267
+      CoolPlanet1_26: 7118723789626235739
+      CoolPlanet1_27: 3409134997104296051
+      CoolPlanet1_28: -2178791358983120920
+      CoolPlanet1_29: -6115743208710650269
+      CoolPlanet1_3: -4730564429507958017
+      CoolPlanet1_30: -3826654480584377186
+      CoolPlanet1_31: -8365221934106254111
+      CoolPlanet1_32: 1717861330654082070
+      CoolPlanet1_33: 2395244817819399544
+      CoolPlanet1_34: 7448989624752362188
+      CoolPlanet1_35: -509725066644057738
+      CoolPlanet1_36: -920549371655458604
+      CoolPlanet1_37: 8563059546528406888
+      CoolPlanet1_38: -1510760543265721191
+      CoolPlanet1_39: -6774038573020375819
+      CoolPlanet1_4: -1918673558015706918
+      CoolPlanet1_40: -2744599308370098659
+      CoolPlanet1_41: 2851116119323440953
+      CoolPlanet1_42: -1803626917020406896
+      CoolPlanet1_43: -4350671778062249563
+      CoolPlanet1_44: 2487185010777103012
+      CoolPlanet1_45: -2715390559937403787
+      CoolPlanet1_46: -2360727057813656559
+      CoolPlanet1_47: -5265682608067976640
+      CoolPlanet1_48: -7289818146875273958
+      CoolPlanet1_49: 1819224017857723966
+      CoolPlanet1_5: 2320969024739495073
+      CoolPlanet1_6: -5186728737906642376
+      CoolPlanet1_7: -2162870059855827718
+      CoolPlanet1_8: 7763423380898547288
+      CoolPlanet1_9: 1575806304894440677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

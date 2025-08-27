@@ -5,6 +5,7 @@ public class MainMenuUI : MonoBehaviour
 {
 
     public GameObject creditsPanel;
+    public GameObject backgroundStoryPanel;
     void Start()
     {
         // Initialize any necessary components or settings
@@ -25,5 +26,15 @@ public class MainMenuUI : MonoBehaviour
     {
         //exit the game
         creditsPanel.SetActive(false);
+    }
+
+    public void OnBackgroundStoryButton()
+    {
+        backgroundStoryPanel.SetActive(true);
+    }
+
+    public void OnBackgroundStoryExitButton()
+    {
+        backgroundStoryPanel.SetActive(false);
     }
 }
