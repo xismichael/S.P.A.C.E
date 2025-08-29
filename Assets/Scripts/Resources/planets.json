@@ -5,13 +5,14 @@
     "description": "Kepler-62 e is in the habitable zone of its host star, Kepler-62 - a star that is cooler and smaller than the Earth’s sun. Its distance from its star means it could potentially receive enough light and warmth for liquid water to exist. Its mass is somewhere from 4 times that of Earth to 36 times. Its radius is 60% larger than Earth’s. Its radiation is likely to be similar to Earth’s.",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A potentially rocky, super Earth exoplanet",
       "tempUpper": 269.817,
       "tempLower": 269.817,
       "lengthOfYear": 122.4,
       "habitableZone": 1,
       "distanceFromStar": 0.427
     },
-    "size": 0.5
+    "size": "It has a mass of 36 Earths."
   },
   {
     "id": 1,
@@ -19,6 +20,7 @@
     "description": "Kepler-62 f is in the habitable zone of its host star, Kepler-62 - a star that is cooler and smaller than the Earth’s sun. To have the same conditions for life as Earth does, it would need to have dramatically more CO2 to be warm enough to maintain liquid water on its surface and keep it from freezing. Its atmosphere would have to be 3-5 times thicker than Earth’s with 2500 times more carbon dioxide. ",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A potentially rocky, super Earth exoplanet",
       "tempUpper": 236,
       "tempLower": 235,
       "lengthOfYear": 267.3,
@@ -26,7 +28,7 @@
       "atmosphere": ["carbonDioxide"],
       "distanceFromStar": 0.718
     },
-    "size": 0.5
+    "size": "It has a mass of 35 Earths."
   },
   {
     "id": 2,
@@ -34,6 +36,7 @@
     "description": "WASP-39 b, also known as Bocaprins,  is a hot gas giant exoplanet, orbiting very close to its host star, WASP-39. It has extremely low density and is notable for the substantial amount of water in its atmosphere, as well as sulfur dioxide, carbon monoxide, sodium, and potassium. ",
     "conditions": {
       "planetType": "gas",
+      "planetPrintType": "A gas giant exoplanet",
       "tempUpper": 1073.15,
       "tempLower": 873.15,
       "lengthOfYear": 4.1,
@@ -41,7 +44,7 @@
       "atmosphere": ["sulfurDioxide", "water", "sodium", "potassium", "carbonMonoxide"],
       "distanceFromStar": 0.0486 
     },
-    "size": 0.5
+    "size": "It has a mass of 0.28 Jupiters."
   },
   {
     "id": 3,
@@ -49,13 +52,14 @@
     "description": "Proxima Centauri D is an exoplanet, orbiting the red dwarf star Proxima Centauri, the closest star to the Sun. Due to its proximity to its star and short orbital period it is likely tidally locked, meaning it has no day or night and one side of the planet experiences freezing darkness while the other has constant sunlight. ",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A rocky/terrestrial exoplanet.",
       "tempUpper": 360,
       "tempLower": 360,
       "lengthOfYear": 5.1,
       "habitableZone": 0,
       "distanceFromStar": 0.02881 
     },
-    "size": 0.5
+    "size": "It has a mass of 0.26 Earths."
   },
   {
     "id": 4,
@@ -63,6 +67,7 @@
     "description": "GJ 1214 b, also known as Gliese 1214 b or Enaiposha, is a super-Earth exoplanet, meaning it is between Earth and Neptune in size. It is likely a water world enshrouded by a thick, steamy atmosphere of water vapor. It appears to have much more water than Earth and much less rock. ",
     "conditions": {
       "planetType": "ocean",
+      "planetPrintType": "A Neptune-like (similar in size and hydrogen/water composition) exoplanet",
       "tempUpper": 503,
       "tempLower": 503,
       "lengthOfYear": 1.6,
@@ -70,7 +75,7 @@
       "atmosphere": ["water"],
       "distanceFromStar": 0.0149
     },
-    "size": 0.5
+    "size": "It has a mass of 8.17 Earths."
   },
   {
     "id": 5,
@@ -78,6 +83,7 @@
     "description": "K2-18 b is an exoplanet orbiting the red dwarf K2-18. It is within the star’s habitable zone, receiving approximately a similar amount of light that the Earth receives from the sun. It is larger than Earth, but smaller than Neptune, with a thin atmosphere of hydrogen and surfaces that could be covered in water, or water trapped underneath a layer of rock. It has carbon-bearing molecules with an abundance of methane and carbon dioxide, supporting the theory that there is a water ocean beneath its atmosphere. Its star is 2.5 billion years old or so and is colder and smaller than the sun so the planet has low solar radiation. ",
     "conditions": {
       "planetType": "ocean",
+      "planetPrintType": "A super Earth, hycean exoplanet - meaning it could be covered in oceans.",
       "tempUpper": 299.8,
       "tempLower": 299.8,
       "lengthOfYear": 32.9,
@@ -85,7 +91,7 @@
       "atmosphere": ["water", "carbonDioxide", "methane"],
       "distanceFromStar": 0.1429
     },
-    "size": 0.5
+    "size": "It has a mass of 8.92 Earths."
   },
   {
     "id": 6,
@@ -93,13 +99,14 @@
     "description": "TRAPPIST-1 b is a super Earth exoplanet that is potentially rocky. It has a mass of 1.374 Earths and likely has no atmosphere, because of its high temperatures and close proximity to the star of its system. ",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A super Earth exoplanet that is potentially rocky.",
       "tempUpper": 500 ,
       "tempLower": 500 ,
       "lengthOfYear": 1.5,
       "habitableZone": 0,
       "distanceFromStar": 0.01154
     },
-    "size": 0.5
+    "size": "It has a mass of 1.374 Earths."
   },
   {
     "id": 7,
@@ -107,13 +114,14 @@
     "description": "KELT-9 b is the hottest known exoplanet with temperatures comparable to K-type stars. The heat on KELT-9 b would tear molecules apart on its dayside. It is a gas giant with a mass of 2.88 Jupiters.",
     "conditions": {
       "planetType": "gas",
+      "planetPrintType": "A gas giant hotter than some stars.",
       "tempUpper": 4643,
       "tempLower": 4643,
       "lengthOfYear": 1.5,
       "habitableZone": 0,
       "distanceFromStar": 0.03462
     },
-    "size": 0.5
+    "size": "It has a mass of 2.88 Jupiters."
   },
   {
     "id": 8,
@@ -121,13 +129,14 @@
     "description": "WASP-12 b is a hot Jupiter-like gas giant. It is the first planet we have observed that is being consumed by its host star. It is so close to its parent star that its tidal forces are distorting the planet into an egg shape. It is experiencing atmospheric loss and extreme conditions as the star consumes it. This is a doomed planet.",
     "conditions": {
       "planetType": "gas",
+      "planetPrintType": "A hot Jupiter planet.",
       "tempUpper": 3128,
       "tempLower": 3128,
       "lengthOfYear": 1.1,
       "habitableZone": 0,
       "distanceFromStar": 0.0234
     },
-    "size": 0.5
+    "size": "It has a mass of 1.47 Jupiters."
   },
   {
     "id": 9,
@@ -135,6 +144,7 @@
     "description": "HAT-P-7 b is a gas giant exoplanet that has a mass of 6.78 Jupiters. It has a dayside temperature of 2700 K and a nightside of 2200 K. It is one of the darkest planets ever observed as it absorbs more than 97% of visible light that hits it. It has strong wind jets and cloudy weather with precipitation, and likely clouds, made of corundum, a mineral that forms rubies and sapphires.",
     "conditions": {
       "planetType": "gas",
+      "planetPrintType": "A gas giant exoplanet.",
       "tempUpper": 2700,
       "tempLower": 2200,
       "lengthOfYear": 2.7,
@@ -142,7 +152,7 @@
       "atmosphere": ["corundum"],
       "distanceFromStar": 0.04739
     },
-    "size": 0.5
+    "size": "It has a mass of 1.84 Jupiters."
   },
   {
     "id": 10,
@@ -150,13 +160,14 @@
     "description": "CoRot-7 b is a terrestrial Super Earth Exoplanet. It has the potential to be rocky but, due to its high temperatures, it may be covered in lava. It also may be tidally locked, meaning it experiences no day or night cycle and temperature on the side that is constantly exposed to the light of the star may be vastly different than on the other side.",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A super Earth exoplanet that is potentially rocky.",
       "tempUpper": 1760,
       "tempLower": 1760,
       "lengthOfYear": 0.9,
       "habitableZone": 0,
       "distanceFromStar": 0.017016
     },
-    "size": 0.5
+    "size": "It has a mass of 4.08 Earths."
   },
   {
     "id": 11,
@@ -164,13 +175,14 @@
     "description": "Beta Pictoris b is a gas giant and considered a Super-Jupiter, since its radius and mass are both greater than Jupiter’s (it has a mass of 11.729 Jupiters). Due to its big size and dusty atmosphere it has a high temperature despite its distance from the A-Type star in its system. It receives approximately 11% of the sunlight Earth does and has a very short rotational period of 8.7 hours (short days/nights).",
     "conditions": {
       "planetType": "gas",
+      "planetPrintType": "A gas giant exoplanet.",
       "tempUpper": 1750,
       "tempLower": 1750,
       "lengthOfYear": 23.6,
       "habitableZone": 0,
       "distanceFromStar": 10.018
     },
-    "size": 0.5
+    "size": "It has a mass of 11.729 Jupiters."
   },
   {
     "id": 12,
@@ -178,6 +190,7 @@
     "description": "TOI-270 d is a Neptune-like giant planet orbiting an M-type star. It has a mass of 4.78 times Earth and is a hycean world, a class of exoplanets that may be covered in planet-wide oceans beneath a hydrogen-rich atmosphere. Has the potential to be very hot but nothing is currently confirmed on the temperature of this planet.",
     "conditions": {
       "planetType": "ocean",
+      "planetPrintType": "A Neptune-like hycean exoplanet, potentially covered in oceans.",
       "tempUpper": 1112,
       "tempLower": 550,
       "lengthOfYear": 11.4,
@@ -185,7 +198,7 @@
       "atmosphere": ["water", "carbonDioxide", "methane"],
       "distanceFromStar": 0.0721
     },
-    "size": 0.5
+    "size": "It has a mass of 4.78 Earths."
   },
   {
     "id": 13,
@@ -193,12 +206,13 @@
     "description": "Gliese-273 b, also known as Luyten b, is a likely rocky super-Earth (it is larger than Earth but smaller than Neptune). With an Earth-like atmosphere it would have an equilibrium temperature similar to Earth’s making it habitable. It is in the habitable zone of the nearby red dwarf Luyten's star, a very dim star meaning it could have low levels of solar radiation despite its closeness.",
     "conditions": {
       "planetType": "rocky",
+      "planetPrintType": "A likely rock super Earth exoplanet.",
       "tempUpper": 259,
       "tempLower": 259,
       "lengthOfYear": 18.6,
       "habitableZone": 1,
       "distanceFromStar": 0.091
     },
-    "size": 0.5
+    "size": "It has a mass of 2.98 Earths."
   }
 ]

@@ -38,7 +38,6 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Optional: Keep this between scene loads
     }
 
     void OnEnable()
@@ -118,7 +117,9 @@ public class GameManager : MonoBehaviour
         timer.StartTimer(600f);
         planetManager.startGame();
         creatureManager.StartGame();
+        reportCard.ClearMessages();
         SoundManager.Instance.PlayBackground(2);
+        UpdateThoughtBubble();
 
     }
     private void EndGame(GameEndReason reason)
@@ -142,31 +143,43 @@ public class GameManager : MonoBehaviour
 
     public void OnMatchMade()
     {
+        SoundManager.Instance.PlayClick(5); // ensure you actually have a 5th click
 
-        //pla¥ sound
-        SoundManager.Instance.PlayClick(5);
-        
-        // If all matches are made, stop timer and end game
+        var creature = creatureManager.SelectedCreature;
+        var planet = planetManager.SelectedPlanet;
 
-        float score = RatingSystem.GetCreaturePlanetRating(creatureManager.SelectedCreature, planetManager.SelectedPlanet);
-        float startingSanity = StartingSanity[creatureManager.SelectedCreature.name];
-        float currentSanity = creatureManager.SelectedCreature.traits.sanity;
+        // 1) Ask RatingSystem for the PENALTY BREAKDOWN (doesn't change your rating)
+        var bd = RatingSystem.GetCreaturePlanetBreakdown(creature, planet);
 
-        score = score * currentSanity / startingSanity;
+        // 2) Keep your EXISTING rating math (raw × sanityFactor)
+        float raw = RatingSystem.GetCreaturePlanetRating(creature, planet);
+        float startingSanity = StartingSanity.TryGetValue(creature.name, out var startVal)
+            ? startVal
+            : Mathf.Max(0.0001f, creature.traits.sanity);
+        float currentSanity = creature.traits.sanity;
+        float sanityFactor = currentSanity / Mathf.Max(0.0001f, startingSanity);
+        float finalScore = Mathf.Clamp(raw * sanityFactor, 0f, 100f);
 
+        // 3) Build the flavorful line using the normalized culprit picker
+        string line = RatingSystem.BuildReportMessage(
+            creature.name, bd, sanityFactor, finalScore);
 
-        totalScore += score;
+        // 4) Update totals/UI (now with message instead of raw score)
+        totalScore += finalScore;
         matchesMade++;
-        reportCard.MatchMade($"{creatureManager.SelectedCreature.name}: {score}");
+        reportCard.MatchMade($"{line}  (grade {finalScore:F1})");
+
+        // 5) Clean up selections
         planetManager.DeleteSelectedPlanet();
         creatureManager.DeleteSelectedCreature();
+
         if (AllMatchesComplete())
         {
-            //FinalScoreText.text += $"\n your final scsore is: {totalScore/matchesMade}";
             timer.StopTimer();
             EndGame(GameEndReason.AllMatched);
         }
     }
+
 
     private bool AllMatchesComplete()
     {
@@ -242,7 +255,7 @@ public class GameManager : MonoBehaviour
         //load the main menu scene
         SceneManager.LoadScene("MenuScreen");
     }
-    
+
     public void OnRestartButton()
     {
         //restart the play scene

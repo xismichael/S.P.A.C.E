@@ -13,6 +13,7 @@ public class PlanetInfoView : MonoBehaviour
     public TextMeshProUGUI atmosphere;
     public TextMeshProUGUI distanceFromStar;
     public TextMeshProUGUI habitableZone;
+    public TextMeshProUGUI size;
     public Animator planetAnimator;
     public GameObject disclosureScreen;
 
@@ -59,7 +60,7 @@ public class PlanetInfoView : MonoBehaviour
             if (planet.conditions.distanceFromStar != null) distanceFromStar.text = $"{planet.conditions.distanceFromStar}AU";
             else distanceFromStar.text = "Data Unavailable";
 
-            if (planet.conditions.planetType != null) planetType.text = planet.conditions.planetType;
+            if (planet.conditions.planetType != null) planetType.text = planet.conditions.planetPrintType;
             else planetType.text = "Data Unavailable";
 
             if (planet.conditions.tempLower != null && planet.conditions.tempUpper != null)
@@ -80,11 +81,15 @@ public class PlanetInfoView : MonoBehaviour
 
             if (planet.conditions.habitableZone != null)
             {
-                if (planet.conditions.habitableZone == 1) habitableZone.text = "Contains Habitable Zone\n";
-                else habitableZone.text = "Does Not Contain Habitable Zone\n";
+                if (planet.conditions.habitableZone == 1) habitableZone.text = "Within System's Habitable Zone\n";
+                else habitableZone.text = "Not Within System's Habitable Zone\n";
             }
             else habitableZone.text = "Data Unavailable\n";
         }
+
+
+            if (planet.size != null) size.text = planet.size;
+            else size.text = "Data Unavailable";
 
         gameObject.SetActive(true);
         planetAnimator.Play(planet.name);
@@ -113,7 +118,7 @@ public class PlanetInfoView : MonoBehaviour
             if (planet.conditions.distanceFromStar != null) distanceFromStar.text = $"{planet.conditions.distanceFromStar}AU";
             else distanceFromStar.text = "Data Unavailable";
 
-            if (planet.conditions.planetType != null) planetType.text = planet.conditions.planetType;
+            if (planet.conditions.planetType != null) planetType.text = planet.conditions.planetPrintType;
             else planetType.text = "Data Unavailable";
 
             if (planet.conditions.tempLower != null && planet.conditions.tempUpper != null)
@@ -134,10 +139,13 @@ public class PlanetInfoView : MonoBehaviour
 
             if (planet.conditions.habitableZone != null)
             {
-                if (planet.conditions.habitableZone == 1) habitableZone.text = "Contains Habitable Zone\n";
-                else habitableZone.text = "Does Not Contain Habitable Zone\n";
+                if (planet.conditions.habitableZone == 1) habitableZone.text = "Within System's Habitable Zone\n";
+                else habitableZone.text = "Not Within System's Habitable Zone\n";
             }
             else habitableZone.text = "Data Unavailable\n";
+
+            if (planet.size != null) size.text = planet.size;
+            else size.text = "Data Unavailable";
         }
         planetAnimator.Play(planet.name);
 

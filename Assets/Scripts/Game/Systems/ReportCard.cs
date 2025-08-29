@@ -9,6 +9,7 @@ public class ReportCard : MonoBehaviour
     [SerializeField] private List<Sprite> gradeSprites = new List<Sprite>(13);
     [SerializeField] private Image uiImage;
     [SerializeField] private TextMeshProUGUI messageText;
+    [SerializeField] private GameObject replayScreen;
     private static readonly float[] CutoffsDesc = {
         97f, 94f, 90f, 88f, 83f, 80f, 77f, 75f, 72f, 65f, 60f, 50f, float.NegativeInfinity
     };
@@ -48,11 +49,16 @@ public class ReportCard : MonoBehaviour
 
     public void Show()
     {
-        gameObject.SetActive(true);
+        replayScreen.SetActive(true);
     }
     public void MatchMade(string message)
     {
         messageText.text += message;
         messageText.text += "\n";
+    }
+
+    public void ClearMessages()
+    {
+        messageText.text = "";
     }
 }

@@ -21,6 +21,22 @@ public static class RatingSystem
     /// - Atmosphere, Lifespan, and Habitable Zone add small bonus points.
     /// Returns a value clamped between 0–100.
     /// </summary>
+
+
+
+
+    /// for creating rating breakdowns
+    public enum CauseType { None, Temperature, Biome, Radiation, Sanity }
+
+    public struct RatingBreakdown
+    {
+        public float baseScore;     // 0..100 BEFORE sanity scaling
+        public float tempPenalty;   // points lost
+        public float biomePenalty;  // points lost
+        public float radPenalty;    // points lost
+        public int tempDir;       // -1 too cold, +1 too hot, 0 mixed
+        public int radDir;        // -1 too low, +1 too high, 0 in band
+    }
     public static float GetCreaturePlanetRating(Creature creature, Planet planet)
     {
         if (creature == null || planet == null || planet.conditions == null || creature.traits == null)
@@ -265,5 +281,156 @@ public static class RatingSystem
             }
         }
         return creatures;
+    }
+
+
+
+    //for creature rating breakdowns
+    /// Computes rating BEFORE sanity, and how many points each penalty removed.
+    /// Uses your same scoring functions/consts so numbers match GetCreaturePlanetRating.
+    public static RatingBreakdown GetCreaturePlanetBreakdown(Creature creature, Planet planet)
+    {
+        var bd = new RatingBreakdown();
+        if (creature == null || planet == null || planet.conditions == null || creature.traits == null)
+            return bd;
+
+        float r = Mathf.Clamp01(creature.traits.generalResilience);
+        float score100 = 100f;
+
+        // --- BIOME penalty ---
+        {
+            float s = ScoreListContainsToken(
+                token: planet.conditions.planetType,
+                allowed: creature.traits.biome,
+                resilience: r,
+                mismatchFloor: 0.05f,
+                mismatchCeil: 0.6f
+            );
+            if (s >= 0f)
+            {
+                float drop = (1f - s) * BIOME_PENALTY_MAX;
+                bd.biomePenalty = drop;
+                score100 -= drop;
+            }
+        }
+
+        // --- TEMPERATURE penalty + direction ---
+        {
+            float? pLoN = planet.conditions.tempLower;
+            float? pHiN = planet.conditions.tempUpper;
+            if (pLoN != null && pHiN != null)
+            {
+                float pLo = pLoN.Value, pHi = pHiN.Value;
+                float cLo = creature.traits.tempLower, cHi = creature.traits.tempUpper;
+                if (pHi < pLo) (pLo, pHi) = (pHi, pLo);
+                if (cHi < cLo) (cLo, cHi) = (cHi, cLo);
+
+                float s = ScoreTemperatureRangeContains(pLo, pHi, cLo, cHi, r);
+                if (s >= 0f)
+                {
+                    float drop = (1f - s) * TEMP_PENALTY_MAX;
+                    bd.tempPenalty = drop;
+                    score100 -= drop;
+
+                    if (pHi < cLo) bd.tempDir = -1;         // planet colder than allowed
+                    else if (pLo > cHi) bd.tempDir = +1;    // planet hotter than allowed
+                    else bd.tempDir = 0;                    // partial overlap
+                }
+            }
+        }
+
+        // --- RADIATION penalty + direction ---
+        {
+            float? dist = planet.conditions.distanceFromStar;
+            if (dist != null)
+            {
+                float lo = Mathf.Min(creature.traits.radiationLower, creature.traits.radiationUpper);
+                float hi = Mathf.Max(creature.traits.radiationLower, creature.traits.radiationUpper);
+
+                float s = ScoreRadiationFromDistance(dist, lo, hi, r, 1.0f);
+                if (s >= 0f)
+                {
+                    float miss = 1f - s;
+                    float drop = Mathf.Pow(miss, RAD_GAMMA) * RAD_PENALTY_MAX;
+                    bd.radPenalty = drop;
+                    score100 -= drop;
+
+                    float R0 = 1.0f;
+                    float intensity = (R0 * R0) / (Mathf.Max(dist.Value, 0.0001f) * Mathf.Max(dist.Value, 0.0001f));
+                    if (intensity < lo) bd.radDir = -1;     // too dim
+                    else if (intensity > hi) bd.radDir = +1; // too irradiated
+                    else bd.radDir = 0;
+                }
+            }
+        }
+
+        bd.baseScore = Mathf.Clamp(score100, 0f, 100f);
+        return bd;
+    }
+
+    /// Creates the flavorful report line based on biggest culprit (or praise if ≥95).
+    public static string BuildReportMessage(
+        string creatureName,
+        RatingBreakdown bd,
+        float sanityFactor,
+        float finalScoreForThreshold)
+    {
+        // Praise if the final grade is great
+        if (finalScoreForThreshold >= 95f)
+            return $"{creatureName} is thriving — stellar pairing!";
+
+        // Sanity loss as a fraction of baseScore (so it's comparable)
+        sanityFactor = Mathf.Clamp01(sanityFactor);
+        float sanityLoss = bd.baseScore * (1f - sanityFactor);
+        float sanityRel = (bd.baseScore > 1e-3f) ? sanityLoss / bd.baseScore : 0f;
+
+        // Normalize each penalty by its own max so comparisons are fair
+        float tempRel = (TEMP_PENALTY_MAX > 0f) ? bd.tempPenalty / TEMP_PENALTY_MAX : 0f;
+        float biomeRel = (BIOME_PENALTY_MAX > 0f) ? bd.biomePenalty / BIOME_PENALTY_MAX : 0f;
+        float radRel = (RAD_PENALTY_MAX > 0f) ? bd.radPenalty / RAD_PENALTY_MAX : 0f;
+
+        // Ignore tiny edges so we don't over-claim a cause
+        const float eps = 0.15f;
+
+        // Pick the largest relative hit, with a small epsilon gap
+        float maxRel = tempRel; var cause = CauseType.Temperature;
+        if (biomeRel > maxRel + eps) { maxRel = biomeRel; cause = CauseType.Biome; }
+        if (radRel > maxRel + eps) { maxRel = radRel; cause = CauseType.Radiation; }
+        if (sanityRel > maxRel + eps) { maxRel = sanityRel; cause = CauseType.Sanity; }
+
+        // If all are within eps, break ties by the biggest raw absolute penalty
+        if (cause == CauseType.Temperature || cause == CauseType.Biome || cause == CauseType.Radiation)
+        {
+            float rawMax = bd.tempPenalty; var rawCause = CauseType.Temperature;
+            if (bd.biomePenalty > rawMax) { rawMax = bd.biomePenalty; rawCause = CauseType.Biome; }
+            if (bd.radPenalty > rawMax) { rawMax = bd.radPenalty; rawCause = CauseType.Radiation; }
+
+            // If normalized values are very close, use raw tie-breaker
+            if (Mathf.Abs(tempRel - biomeRel) < eps &&
+                Mathf.Abs(tempRel - radRel) < eps &&
+                Mathf.Abs(biomeRel - radRel) < eps)
+            {
+                cause = rawCause;
+            }
+        }
+
+        // Message by cause (direction-aware where possible)
+        switch (cause)
+        {
+            case CauseType.Temperature:
+                if (bd.tempDir < 0) return $"{creatureName} froze to death";
+                if (bd.tempDir > 0) return $"{creatureName} overheated";
+                return $"{creatureName} struggled with temperature swings.";
+            case CauseType.Biome:
+                return $"{creatureName} felt out of place with the terrain";
+            case CauseType.Radiation:
+                if (bd.radDir > 0) return $"{creatureName} was irradiated by the star.";
+                if (bd.radDir < 0) return $"{creatureName} lacked energy — star too dim.";
+                return $"{creatureName} had unstable radiation exposure.";
+            case CauseType.Sanity:
+                return $"{creatureName} had a breakdown on the ship.";
+            default:
+                return $"{creatureName} had a mixed match — needs a better fit.";
+        }
     }
 }

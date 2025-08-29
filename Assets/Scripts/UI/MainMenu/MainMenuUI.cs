@@ -6,6 +6,7 @@ public class MainMenuUI : MonoBehaviour
 
     public GameObject creditsPanel;
     public GameObject backgroundStoryPanel;
+    public GameObject instructionsPanel;
     void Start()
     {
         // Initialize any necessary components or settings
@@ -16,6 +17,10 @@ public class MainMenuUI : MonoBehaviour
         //load the play scene
         SceneManager.LoadScene("PlayScreen");
         SoundManager.Instance.PlayClick(5);
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.StartGame();
+        }
     }
 
     public void OnCreditButton()
@@ -34,13 +39,27 @@ public class MainMenuUI : MonoBehaviour
 
     public void OnBackgroundStoryButton()
     {
-        SoundManager.Instance.PlayClick(3);
+        SoundManager.Instance.PlayClick(1);
         backgroundStoryPanel.SetActive(true);
     }
 
     public void OnBackgroundStoryExitButton()
     {
-        SoundManager.Instance.PlayClick(4);
+        SoundManager.Instance.PlayClick(2);
         backgroundStoryPanel.SetActive(false);
+    }
+
+    public void OnInstructionsButton()
+    {
+        //load instruction scene
+        SoundManager.Instance.PlayClick(1);
+        instructionsPanel.SetActive(true);
+    }
+
+    public void OnInstructionsExitButton()
+    {
+        //exit the game
+        SoundManager.Instance.PlayClick(2);
+        instructionsPanel.SetActive(false);
     }
 }
