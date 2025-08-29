@@ -67,7 +67,7 @@
     "description": "GJ 1214 b, also known as Gliese 1214 b or Enaiposha, is a super-Earth exoplanet, meaning it is between Earth and Neptune in size. It is likely a water world enshrouded by a thick, steamy atmosphere of water vapor. It appears to have much more water than Earth and much less rock. ",
     "conditions": {
       "planetType": "ocean",
-      "planetPrintType": "A Neptune-like (similar in size and hydrogen/water composition) exoplanet",
+      "planetPrintType": "A Neptune-like, similar size and water concentration, exoplanet",
       "tempUpper": 503,
       "tempLower": 503,
       "lengthOfYear": 1.6,
