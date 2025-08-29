@@ -30,11 +30,9 @@ public class PlanetManager : MonoBehaviour
 
     public void startGame()
     {
-        if (!planet_prefab || !windowContainer)
-        {
-            Debug.LogError("[PlanetManager] Missing prefab or windowContainer reference.", this);
-            return;
-        }
+        //delete all existing planets
+        foreach (var ui in CurrentPlanets) if (ui) Destroy(ui.gameObject);
+        CurrentPlanets.Clear(); 
 
         // Get data
         planets = PlanetDatabase.Instance.GetUniquePlanets(PlanetCount);

@@ -29,11 +29,18 @@ public class PlanetInfoView : MonoBehaviour
 
     public void Exit()
     {
+
+        //play button close sound
+        SoundManager.Instance.PlayClick(2);
+        
         gameObject.SetActive(false);
     }
 
     public void Open(Planet planet)
     {
+
+        //play button open sound
+        SoundManager.Instance.PlayClick(1);
 
         description.text = planet.description;
 
@@ -59,11 +66,11 @@ public class PlanetInfoView : MonoBehaviour
             {
                 if (planet.conditions.tempLower == planet.conditions.tempUpper)
                 {
-                    tempRange.text = $"around {planet.conditions.tempLower}°K";
+                    tempRange.text = $"around {planet.conditions.tempLower}K";
                 }
                 else
                 {
-                    tempRange.text = $"{planet.conditions.tempLower}°K to {planet.conditions.tempUpper}°K";
+                    tempRange.text = $"{planet.conditions.tempLower}K to {planet.conditions.tempUpper}K";
                 }
             }
             else tempRange.text = "Data Unavailable";
@@ -113,11 +120,11 @@ public class PlanetInfoView : MonoBehaviour
             {
                 if (planet.conditions.tempLower == planet.conditions.tempUpper)
                 {
-                    tempRange.text = $"around {planet.conditions.tempLower}°K";
+                    tempRange.text = $"around {planet.conditions.tempLower}K";
                 }
                 else
                 {
-                    tempRange.text = $"{planet.conditions.tempLower}°K to {planet.conditions.tempUpper}°K";
+                    tempRange.text = $"{planet.conditions.tempLower}K to {planet.conditions.tempUpper}K";
                 }
             }
             else tempRange.text = "Data Unavailable";
@@ -139,11 +146,19 @@ public class PlanetInfoView : MonoBehaviour
 
     public void OnDisclosureButton()
     {
+
+        //play button open sound
+        SoundManager.Instance.PlayClick(1);
+
+
         disclosureScreen.SetActive(true);
     }
 
     public void OnCloseDisclosure()
     {
+        //play button close sound
+        SoundManager.Instance.PlayClick(2);
+
         disclosureScreen.SetActive(false);
     }
 

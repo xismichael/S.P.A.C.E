@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -62,8 +63,6 @@ public class GameManager : MonoBehaviour
         // Debug.Log($"Rating for {testCreature.name} on {testPlanet.name}: {rating}");
 
         //FinalScoreText.text = "";
-        matchesMade = 0;
-        totalScore = 0;
         StartGame();
 
 
@@ -113,8 +112,14 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         // Reset game and set time
+        matchesMade = 0;
+        totalScore = 0;
+        ThoughtBubbleText.text = "";
         timer.StartTimer(600f);
         planetManager.startGame();
+        creatureManager.StartGame();
+        SoundManager.Instance.PlayBackground(2);
+
     }
     private void EndGame(GameEndReason reason)
     {
@@ -123,7 +128,7 @@ public class GameManager : MonoBehaviour
         {
             foreach (Creature creature in creatureManager.creatures)
             {
-                matchesMade++; 
+                matchesMade++;
                 reportCard.MatchMade($"{creature.name}: {0}");
             }
         }
@@ -137,6 +142,10 @@ public class GameManager : MonoBehaviour
 
     public void OnMatchMade()
     {
+
+        //pla¥ sound
+        SoundManager.Instance.PlayClick(5);
+        
         // If all matches are made, stop timer and end game
 
         float score = RatingSystem.GetCreaturePlanetRating(creatureManager.SelectedCreature, planetManager.SelectedPlanet);
@@ -226,6 +235,18 @@ public class GameManager : MonoBehaviour
             Debug.Log($"Starting sanity for {creature.name}: {creature.traits.sanity}");
         }
         StartingSanity = sanityDict;
+    }
+
+    public void OnMenuButton()
+    {
+        //load the main menu scene
+        SceneManager.LoadScene("MenuScreen");
+    }
+    
+    public void OnRestartButton()
+    {
+        //restart the play scene
+        StartGame();
     }
 
 }

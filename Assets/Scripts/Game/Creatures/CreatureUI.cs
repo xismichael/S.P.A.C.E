@@ -35,6 +35,11 @@ public class CreatureUI : MonoBehaviour
     {
         // Handle click events on the creature UI
         //creatureInfoView.Open(creature);
+
+        //play creature oen sound
+        SoundManager.Instance.PlayClick(3);
+
+        
         creatureManager.SetCreatureUI(this);
         
 

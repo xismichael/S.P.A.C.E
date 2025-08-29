@@ -38,6 +38,11 @@ public class PlanetUI : MonoBehaviour
     {
         // planet Desscription Pop Up
 
+
+
+        //play planet open sound
+        SoundManager.Instance.PlayClick(4);
+
         //planetinfoview.Open(planet);
         planetManager.SetPlanetUI(this);
         

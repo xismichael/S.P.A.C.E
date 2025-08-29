@@ -31,6 +31,10 @@ public class CreatureInfoView : MonoBehaviour
 
     public void Exit()
     {
+
+        //play button close sound
+        SoundManager.Instance.PlayClick(2);
+        
         gameObject.SetActive(false);
     }
 
@@ -51,7 +55,8 @@ public class CreatureInfoView : MonoBehaviour
 
     public void Open(Creature creature)
     {
-
+        //play button open sound
+        SoundManager.Instance.PlayClick(1);
 
         description.text = creature.description;
         thermalTolerance.text = creature.ambiguousData.thermalTolerance;

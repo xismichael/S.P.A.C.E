@@ -35,6 +35,16 @@ public class CreatureManager : MonoBehaviour
     void Start()
     {
 
+    }
+
+    public void StartGame()
+    {
+
+        //delete all existing creatures
+        foreach (var ui in CurrentCreatures) if (ui) Destroy(ui.gameObject);
+        CurrentCreatures.Clear();
+        
+
         creatures = CreatureDatabase.Instance.GetUniqueCreatures(CreatureCount);
         // How many can we actually place without repeating a slot?
         int spawnCount = Mathf.Min(creatures.Count, creaturePositions.Count);
@@ -67,7 +77,6 @@ public class CreatureManager : MonoBehaviour
         }
 
         GameManager.Instance.BuildSanityDictionary();
-
 
     }
 
