@@ -43,7 +43,7 @@ public class CreatureManager : MonoBehaviour
         //delete all existing creatures
         foreach (var ui in CurrentCreatures) if (ui) Destroy(ui.gameObject);
         CurrentCreatures.Clear();
-        
+
 
         creatures = CreatureDatabase.Instance.GetUniqueCreatures(CreatureCount);
         // How many can we actually place without repeating a slot?
@@ -130,4 +130,6 @@ public class CreatureManager : MonoBehaviour
         if (selectedCreatureUI == null) return;
         creatureInfoView.Open(SelectedCreature);
     }
+
 }
+

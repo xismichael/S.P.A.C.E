@@ -2024,6 +2024,7 @@ MonoBehaviour:
   sendOffClick: {fileID: 8300000, guid: 35af5c2d27fe542199f1cb0f07f7579e, type: 3}
   bgMusic1: {fileID: 8300000, guid: 898c3101856f7445bbd63769f13e3fe4, type: 3}
   bgMusic2: {fileID: 8300000, guid: af7d0661422e046419b19ddac9d59217, type: 3}
+  bgMusic3: {fileID: 8300000, guid: 756ff184d6d47473b820c541d5c21b20, type: 3}
 --- !u!1 &876213090
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,7 +3573,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 98.75903, y: 0, z: 64.1933, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

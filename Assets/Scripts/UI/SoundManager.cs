@@ -18,6 +18,7 @@ public class SoundManager : MonoBehaviour
     [Header("Background Music")]
     [SerializeField] private AudioClip bgMusic1;
     [SerializeField] private AudioClip bgMusic2;
+    [SerializeField] private AudioClip bgMusic3;
 
     private void Awake()
     {
@@ -50,6 +51,7 @@ public class SoundManager : MonoBehaviour
         {
             case 1: musicSource.clip = bgMusic1; break;
             case 2: musicSource.clip = bgMusic2; break;
+            case 3: musicSource.clip = bgMusic3; break;
             default: Debug.LogWarning("Invalid background index"); return;
         }
         musicSource.loop = true;

@@ -206,7 +206,7 @@
     "description": "Gliese-273 b, also known as Luyten b, is a likely rocky super-Earth (it is larger than Earth but smaller than Neptune). With an Earth-like atmosphere it would have an equilibrium temperature similar to Earth’s making it habitable. It is in the habitable zone of the nearby red dwarf Luyten's star, a very dim star meaning it could have low levels of solar radiation despite its closeness.",
     "conditions": {
       "planetType": "rocky",
-      "planetPrintType": "A likely rock super Earth exoplanet.",
+      "planetPrintType": "A likely rocky super Earth exoplanet.",
       "tempUpper": 259,
       "tempLower": 259,
       "lengthOfYear": 18.6,

@@ -136,6 +136,7 @@ public class GameManager : MonoBehaviour
 
 
 
+        SoundManager.Instance.PlayBackground(3);
         reportCard.ShowScore(totalScore / Mathf.Max(1, matchesMade));
         reportCard.Show();
         //Update UI results

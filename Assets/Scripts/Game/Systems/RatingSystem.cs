@@ -4,14 +4,14 @@ using System.Collections.Generic;
 
 public static class RatingSystem
 {
-    private const float TEMP_PENALTY_MAX = 45f;  // Big direct drop if temperature doesn’t fit
-    private const float BIOME_PENALTY_MAX = 35f; // Big direct drop if biome mismatched
+    private const float TEMP_PENALTY_MAX = 50f;  // Big direct drop if temperature doesn’t fit
+    private const float BIOME_PENALTY_MAX = 40f; // Big direct drop if biome mismatched
 
-    private const float RAD_PENALTY_MAX = 20f;  // Radiation penalty is smaller than temp/biome
+    private const float RAD_PENALTY_MAX = 15f;  // Radiation penalty is smaller than temp/biome
     private const float RAD_GAMMA = 2.0f; // Nonlinear: punishes large miss much more
 
-    private const float ATMOS_BONUS_MAX = 20f;   // Pure bonus
-    private const float LIFE_BONUS_MAX = 10f;   // Pure bonus
+    private const float ATMOS_BONUS_MAX = 25f;   // Pure bonus
+    private const float LIFE_BONUS_MAX = 15f;   // Pure bonus
     private const float HZ_BONUS_MAX = 5f;   // Tiny nudge bonus
 
     /// <summary>
@@ -370,67 +370,45 @@ public static class RatingSystem
 
     /// Creates the flavorful report line based on biggest culprit (or praise if ≥95).
     public static string BuildReportMessage(
-        string creatureName,
-        RatingBreakdown bd,
-        float sanityFactor,
-        float finalScoreForThreshold)
+    string creatureName,
+    RatingBreakdown bd,
+    float sanityFactor,
+    float finalScoreForThreshold)
+{
+    const float PRAISE_THRESHOLD = 95f;
+
+    if (finalScoreForThreshold >= PRAISE_THRESHOLD)
+        return $"{creatureName} is thriving — stellar pairing!";
+
+    // how many points you lost due to sanity scaling
+    sanityFactor = Mathf.Clamp01(sanityFactor);
+    float sanityLoss = bd.baseScore * (1f - sanityFactor);
+
+    // pick the single largest RAW deduction in points
+    float maxDrop = bd.tempPenalty;
+    var cause = CauseType.Temperature;
+
+    if (bd.biomePenalty > maxDrop) { maxDrop = bd.biomePenalty; cause = CauseType.Biome; }
+    if (bd.radPenalty   > maxDrop) { maxDrop = bd.radPenalty;   cause = CauseType.Radiation; }
+    if (sanityLoss      > maxDrop) { maxDrop = sanityLoss;      cause = CauseType.Sanity; }
+
+    switch (cause)
     {
-        // Praise if the final grade is great
-        if (finalScoreForThreshold >= 95f)
-            return $"{creatureName} is thriving — stellar pairing!";
-
-        // Sanity loss as a fraction of baseScore (so it's comparable)
-        sanityFactor = Mathf.Clamp01(sanityFactor);
-        float sanityLoss = bd.baseScore * (1f - sanityFactor);
-        float sanityRel = (bd.baseScore > 1e-3f) ? sanityLoss / bd.baseScore : 0f;
-
-        // Normalize each penalty by its own max so comparisons are fair
-        float tempRel = (TEMP_PENALTY_MAX > 0f) ? bd.tempPenalty / TEMP_PENALTY_MAX : 0f;
-        float biomeRel = (BIOME_PENALTY_MAX > 0f) ? bd.biomePenalty / BIOME_PENALTY_MAX : 0f;
-        float radRel = (RAD_PENALTY_MAX > 0f) ? bd.radPenalty / RAD_PENALTY_MAX : 0f;
-
-        // Ignore tiny edges so we don't over-claim a cause
-        const float eps = 0.15f;
-
-        // Pick the largest relative hit, with a small epsilon gap
-        float maxRel = tempRel; var cause = CauseType.Temperature;
-        if (biomeRel > maxRel + eps) { maxRel = biomeRel; cause = CauseType.Biome; }
-        if (radRel > maxRel + eps) { maxRel = radRel; cause = CauseType.Radiation; }
-        if (sanityRel > maxRel + eps) { maxRel = sanityRel; cause = CauseType.Sanity; }
-
-        // If all are within eps, break ties by the biggest raw absolute penalty
-        if (cause == CauseType.Temperature || cause == CauseType.Biome || cause == CauseType.Radiation)
-        {
-            float rawMax = bd.tempPenalty; var rawCause = CauseType.Temperature;
-            if (bd.biomePenalty > rawMax) { rawMax = bd.biomePenalty; rawCause = CauseType.Biome; }
-            if (bd.radPenalty > rawMax) { rawMax = bd.radPenalty; rawCause = CauseType.Radiation; }
-
-            // If normalized values are very close, use raw tie-breaker
-            if (Mathf.Abs(tempRel - biomeRel) < eps &&
-                Mathf.Abs(tempRel - radRel) < eps &&
-                Mathf.Abs(biomeRel - radRel) < eps)
-            {
-                cause = rawCause;
-            }
-        }
-
-        // Message by cause (direction-aware where possible)
-        switch (cause)
-        {
-            case CauseType.Temperature:
-                if (bd.tempDir < 0) return $"{creatureName} froze to death";
-                if (bd.tempDir > 0) return $"{creatureName} overheated";
-                return $"{creatureName} struggled with temperature swings.";
-            case CauseType.Biome:
-                return $"{creatureName} felt out of place with the terrain";
-            case CauseType.Radiation:
-                if (bd.radDir > 0) return $"{creatureName} was irradiated by the star.";
-                if (bd.radDir < 0) return $"{creatureName} lacked energy — star too dim.";
-                return $"{creatureName} had unstable radiation exposure.";
-            case CauseType.Sanity:
-                return $"{creatureName} had a breakdown on the ship.";
-            default:
-                return $"{creatureName} had a mixed match — needs a better fit.";
-        }
+        case CauseType.Temperature:
+            if (bd.tempDir < 0)  return $"{creatureName} froze to death";
+            if (bd.tempDir > 0)  return $"{creatureName} overheated";
+            return $"{creatureName} struggled with temperature swings.";
+        case CauseType.Biome:
+            return $"{creatureName} felt out of place with the terrain";
+        case CauseType.Radiation:
+            if (bd.radDir > 0)   return $"{creatureName} was irradiated by the star.";
+            if (bd.radDir < 0)   return $"{creatureName} lacked energy — star too dim.";
+            return $"{creatureName} had unstable radiation exposure.";
+        case CauseType.Sanity:
+            return $"{creatureName} had a breakdown on the ship.";
+        default:
+            return $"{creatureName} had a mixed match — needs a better fit.";
     }
+}
+
 }

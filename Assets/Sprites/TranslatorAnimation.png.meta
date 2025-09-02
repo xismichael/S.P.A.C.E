@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 64571d13285234f7ea204fff00daa475
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2062662877237732104
+    second: TranslatorAnimation_0
+  - first:
+      213: 468019786269767597
+    second: TranslatorAnimation_1
+  - first:
+      213: -1287964285894253997
+    second: TranslatorAnimation_2
+  - first:
+      213: -8946350383484718252
+    second: TranslatorAnimation_3
+  - first:
+      213: 6269212080641594861
+    second: TranslatorAnimation_4
+  - first:
+      213: -8104378661899798494
+    second: TranslatorAnimation_5
+  - first:
+      213: 1819394574406746162
+    second: TranslatorAnimation_6
+  - first:
+      213: 4728526024695157420
+    second: TranslatorAnimation_7
+  - first:
+      213: 1972510445405945126
+    second: TranslatorAnimation_8
+  - first:
+      213: 6581483452384357531
+    second: TranslatorAnimation_9
+  - first:
+      213: -8271959985088553044
+    second: TranslatorAnimation_10
+  - first:
+      213: 4311313091087787009
+    second: TranslatorAnimation_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TranslatorAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 5
+        width: 319
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803e32955fc00ac10800000000000000
+      internalID: 2062662877237732104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7b674148dbe7600800000000000000
+      internalID: 468019786269767597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35222ef4e4b302ee0800000000000000
+      internalID: -1287964285894253997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b63cd9bd28d380800000000000000
+      internalID: -8946350383484718252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5da30fb27b00750800000000000000
+      internalID: 6269212080641594861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228f43cbb86778f80800000000000000
+      internalID: -8104378661899798494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23089c1d9b9cf3910800000000000000
+      internalID: 1819394574406746162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2152ddd591f9140800000000000000
+      internalID: 4728526024695157420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d3b2e9cc3cf5b10800000000000000
+      internalID: 1972510445405945126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 5
+        width: 319
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c2b7a6450265b50800000000000000
+      internalID: 6581483452384357531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1d846838143d80800000000000000
+      internalID: -8271959985088553044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TranslatorAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 5
+        width: 319
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10467cdf96cd4db30800000000000000
+      internalID: 4311313091087787009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TranslatorAnimation_0: 2062662877237732104
+      TranslatorAnimation_1: 468019786269767597
+      TranslatorAnimation_10: -8271959985088553044
+      TranslatorAnimation_11: 4311313091087787009
+      TranslatorAnimation_2: -1287964285894253997
+      TranslatorAnimation_3: -8946350383484718252
+      TranslatorAnimation_4: 6269212080641594861
+      TranslatorAnimation_5: -8104378661899798494
+      TranslatorAnimation_6: 1819394574406746162
+      TranslatorAnimation_7: 4728526024695157420
+      TranslatorAnimation_8: 1972510445405945126
+      TranslatorAnimation_9: 6581483452384357531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
