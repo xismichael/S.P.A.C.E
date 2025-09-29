@@ -7,7 +7,7 @@ public static class RatingSystem
     private const float TEMP_PENALTY_MAX = 50f;  // Big direct drop if temperature doesn’t fit
     private const float BIOME_PENALTY_MAX = 40f; // Big direct drop if biome mismatched
 
-    private const float RAD_PENALTY_MAX = 15f;  // Radiation penalty is smaller than temp/biome
+    private const float RAD_PENALTY_MAX = 13f;  // Radiation penalty is smaller than temp/biome
     private const float RAD_GAMMA = 2.0f; // Nonlinear: punishes large miss much more
 
     private const float ATMOS_BONUS_MAX = 25f;   // Pure bonus
@@ -375,10 +375,10 @@ public static class RatingSystem
     float sanityFactor,
     float finalScoreForThreshold)
 {
-    const float PRAISE_THRESHOLD = 95f;
+    const float PRAISE_THRESHOLD = 88f;
 
     if (finalScoreForThreshold >= PRAISE_THRESHOLD)
-        return $"{creatureName} is thriving — stellar pairing!";
+        return $"{creatureName} is thriving! stellar pairing!";
 
     // how many points you lost due to sanity scaling
     sanityFactor = Mathf.Clamp01(sanityFactor);
@@ -402,7 +402,7 @@ public static class RatingSystem
             return $"{creatureName} felt out of place with the terrain";
         case CauseType.Radiation:
             if (bd.radDir > 0)   return $"{creatureName} was irradiated by the star.";
-            if (bd.radDir < 0)   return $"{creatureName} lacked energy — star too dim.";
+            if (bd.radDir < 0)   return $"{creatureName} lacked energy, star too dim.";
             return $"{creatureName} had unstable radiation exposure.";
         case CauseType.Sanity:
             return $"{creatureName} had a breakdown on the ship.";
